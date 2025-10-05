@@ -1,0 +1,12 @@
+{
+  "Andoain:IceCreamTutorial": {
+    "TEXT": [
+      "Ice Cream Machine",
+      "Ice Cream Machine is a summoned entity with special mechanics. Only #y1 Ice Cream Machine can exist on the battlefield at a time. NL #rEnemy Ice Cream Machines apply #y1 Strength and #y2 Metalize to all other enemies each turn. When defeated, deals 1 turn of #yStun and #y10 damage to all enemy monsters, then summons a #bFriendly Ice Cream Machine with #y1 #yIntangible.",
+      "Ice Cream Machine - Part 1",
+      "#bFriendly Ice Cream Machines restore #y1 Ammunition and #y4 Block, and let you draw #y1 card each turn. They take #y80% of the damage you receive. When defeated, grants you #y1 #yVulnerable and adds #y2 #yVoid cards to your draw pile, then summons a new #rEnemy Ice Cream Machine. NL Friendly Ice Cream Machines transfer damage from orbs, relics, and other non-attack sources to the enemy with the lowest HP on the battlefield. However, they can still be damaged by other AoE cards.",
+      "Ice Cream Machine - Part 2",
+      "When attacks trigger #yLightning, #rEnemy Ice Cream Machines are prioritized as targets. They will never choose #bFriendly Ice Cream Machines as lightning targets. NL Use the Ice Cream Machine's buffs, defeat rewards, and lightning effects wisely to execute your tactical plans!"
+    ]
+  }
+}

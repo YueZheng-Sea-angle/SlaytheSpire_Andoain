@@ -1,0 +1,41 @@
+{
+  "AndoainMod:MassesTravels":{
+    "NAME": "Embrace of the Holy City",
+    "FLAVOR": "Bullets of Andoain. \"Everything we do isn't for trading blessings or seeking mercy. We rely on what we believe in to walk our path, because...\"",
+    "DESCRIPTIONS": [
+      "At the start of each battle, fill ammo to maximum and randomly upgrade #b2 cards in your starting hand."
+    ]
+  },"AndoainMod:EpiphanyPendant":{
+  "NAME": "Revelation Pendant",
+  "FLAVOR": "Faith hangs ten centimeters above your heart, language flows into your blood, bullets slide into your chamber.",
+  "DESCRIPTIONS": [
+    "Ricochet damage no longer decreases."
+  ]
+},"AndoainMod:Aura":{
+  "NAME": "Aura",
+  "FLAVOR": "\"When I entered that door, my sibling had already manifested circles and grown luminous wings. The voice that came through was like a key, unraveling the suffering in my heart. So when I replied loudly, the circles completed their connection and I became enlightened.\"",
+  "DESCRIPTIONS": [
+    "Allied Ice Cream Machine can now be valid targets for ricochet, with lower taunt than normal enemies."
+  ]
+},"AndoainMod:ChurchMealVoucher": {
+  "NAME": "Church Relief Meal Voucher",
+  "FLAVOR": "In the declining coastal towns of Iberia, certain churches periodically provide relief meals, which believers collect with vouchers. As for the distribution criteria of relief meal vouchers, it's a secret.",
+  "DESCRIPTIONS": [
+    "At end of turn, gain",
+    " Block for each of the following: ①ammo count is 0; ②don't have \"Light Unto Sufferers\" power; ③HP is not above",
+    "."
+  ]
+},"AndoainMod:BrokenRevolverCylinder": {
+  "NAME": "Broken Revolver Cylinder",
+  "FLAVOR": "She walked through mountains of swords and seas of fire without bowing to evil once. Her muzzle flame burned like an enraged sun, her brilliance blazed brighter than daylight itself. Here rests Outcast, our friend.",
+  "DESCRIPTIONS": [
+    "At start of turn gain [E] , but after consuming #b5 ammunition in each battle, reduce ammunition cap and ammunition count to 0 for the rest of this battle."
+  ]
+},"AndoainMod:CathedralPuzzle": {
+  "NAME": "Cathedral Puzzle",
+  "FLAVOR": "Every time a puzzle piece falls into place, the Iberian Cathedral becomes more complete. In this era of decay, being able to piece together one of the most magnificent wonders created by history is already enough to provide solace.",
+  "DESCRIPTIONS": [
+    "At start of turn gain [E] . You can no longer deal damage to Ice Cream Machine using attacks."
+  ]
+}
+}

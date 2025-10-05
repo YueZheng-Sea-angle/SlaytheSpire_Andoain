@@ -1,0 +1,128 @@
+[
+  {
+    "NAMES": [
+      "light-unto-sufferers"
+    ],
+    "DESCRIPTION": "Upon taking damage, heal #y50% of the damage. At the start of next turn, #y30% chance to gain #b1 Buffet."
+  },
+  {
+    "NAMES": [
+      "ice-cream-machine"
+    ],
+    "DESCRIPTION": "Provides buff effects to allies of the same faction. When destroyed, weakens its teammates and switches factions. Enemy ice cream machines are priority targets for #yRicochet."
+  },
+  {
+    "NAMES": [
+      "deviation"
+    ],
+    "DESCRIPTION": "When a card simultaneously triggers multiple ricochets, ricochet deviation occurs. Projectiles may choose dying monsters from this resolution as #yPrimary Ricochet Targets. Projectiles that hit dying targets no longer trigger #ySecondary Ricochet."
+  },
+  {
+    "NAMES": [
+      "weekly-order"
+    ],
+    "DESCRIPTION": "Seven-day cycle from Monday to Sunday. Weekly Order does not reset at the end of battle."
+  },
+  {
+    "NAMES": [
+      "ammunition"
+    ],
+    "DESCRIPTION": "Has a limit. Some cards consume ammunition for enhanced effects; some cards restore ammunition and ammunition limit."
+  },
+  {
+    "NAMES": [
+      "ricochet"
+    ],
+    "DESCRIPTION": "When you have #yAmmunition, playing this card consumes #b1 ammunition and triggers a ricochet attack that jumps #y2 times between enemies, with damage #ydecreasing by 20% each time. Specific logic: select the first valid ricochet target from left to right; can ricochet back to the original target (requires another target as medium)."
+  },
+  {
+    "NAMES": [
+      "path"
+    ],
+    "DESCRIPTION": "Choose and gain one card from #yFervent Delusion, #yObsession, #ySuffering."
+  },
+  {
+    "NAMES": [
+      "pathfinder"
+    ],
+    "DESCRIPTION": "Choose and gain one card from #yFervent Delusion, #yObsession, #ySuffering."
+  },
+  {
+    "NAMES": [
+      "squad-card"
+    ],
+    "DESCRIPTION": "Exclusive cards for Andonain's four-person squad, including #yLemuen's Gaze, #yMostima's Support, #yFiammetta's Vengeance, #yLaterano."
+  },
+  {
+    "NAMES": [
+      "dream"
+    ],
+    "DESCRIPTION": "Every time you gain #b7 stacks of #yDream, enter #yTrance. NL Upon entering Trance, gain #b30 Block. In this state, you cannot play #yAttack cards. Automatically leave this state at the end of turn."
+  },
+  {
+    "NAMES": [
+      "apoptotic-damage"
+    ],
+    "DESCRIPTION": "When accumulated #b3 stacks of Apoptotic Damage triggers #yApoptotic Damage Burst: gain #b3 stacks of #yWeak, lose #b15 HP each turn, cannot gain ApoptoticDamage stacks, lasting #b3 turns."
+  },
+  {
+    "NAMES": [
+      "effect-pool"
+    ],
+    "DESCRIPTION": " #yWeak #b2, #yFrail #b2, #yVulnerable #b2, #yPoison #b5, #yStun, #ySlow #b5, #yStrength #b2, #yDexterity #b2, #yFocus #b4, #yBlock #b10, #yThorns #b3. Probability of player gaining buffs and monsters gaining debuffs is #b65%."
+  },
+  {
+    "NAMES": [
+      "effect-pool-plus"
+    ],
+    "DESCRIPTION": " #yWeak #b2, #yFrail #b2, #yVulnerable #b2, #yPoison #b5, #yStun, #ySlow #b5, #yStrength #b2, #yDexterity #b2, #yFocus #b4, #yBlock #b10, #yThorns #b3. Probability of player gaining buffs and monsters gaining debuffs is #b85%. Player will no longer gain #yStun."
+  },
+  {
+    "NAMES": [
+      "corruption-burn"
+    ],
+    "DESCRIPTION": "When reaching #b2 stacks, clears and triggers #yCorruption Burn Burst, immediately lose #b10 HP and gain #b2 stacks of #yVulnerable."
+  },
+  {
+    "NAMES": [
+      "execute"
+    ],
+    "DESCRIPTION": "Using this card to kill non-minion enemies or destroy ice cream machines is considered execution."
+  },
+  {
+    "NAMES": [
+      "gaze"
+    ],
+    "DESCRIPTION": "Having #yLemuen's Gaze or #yPeace, Like Foam in hand is considered to be in a gaze state."
+  },
+  {
+    "NAMES": [
+      "slow"
+    ],
+    "DESCRIPTION": "Every card you play this turn increases the damage this enemy takes this turn by #y10%."
+  },
+  {
+    "NAMES": [
+      "stunned"
+    ],
+    "DESCRIPTION": "This enemy takes no action this turn."
+  },
+  {
+    "NAMES": [
+      "limit-use"
+    ],
+    "DESCRIPTION": "After playing #bX times, this card is #yexhausted for this battle."
+  },
+  {
+    "NAMES": [
+      "pathfinder-card"
+    ],
+    "DESCRIPTION": "Exclusive cards for Andonain's leading Pathfinder squad, including #yPtilopsis' Care, #yPathfinder Caster, #yPathfinder Sweet Merchant, #yPathfinder Candy Cart, #yPathfinder Territory Breaker."
+  },
+  {
+    "NAMES": [
+      "buffet"
+    ],
+    "DESCRIPTION": "Prevents damage from attacks."
+  }
+]

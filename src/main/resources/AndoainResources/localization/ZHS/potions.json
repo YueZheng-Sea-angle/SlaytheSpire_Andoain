@@ -1,0 +1,64 @@
+{
+  "AndoainMod:BottleLight": {
+    "NAME": "瓶装微光",
+    "DESCRIPTIONS": [
+      "获得 #b",
+      " 层光赐于苦。",
+      "光赐于苦",
+      "下回合开始时有 #b30% 概率获得1层 #y缓冲 。受到伤害时，回复伤害值 #b50% 的生命。"
+    ]
+  },
+  "AndoainMod:BottleDream": {
+    "NAME": "瓶装幻梦",
+    "DESCRIPTIONS": [
+      "进入迷梦状态。若已在迷梦中，则离开迷梦状态。",
+      "迷梦",
+      "进入时获得 #b30 点格挡。此状态下不能打出 #y攻击牌 。回合结束时自动离开此状态。"
+    ]
+  },
+  "AndoainMod:BottleAmmi": {
+    "NAME": "弹药药水",
+    "DESCRIPTIONS": [
+      "获得 #b"," 弹药。",
+      "弹药",
+      "有上限。部分卡牌可消耗弹药获得增强效果，部分卡牌可补充弹药和弹药上限。"
+    ]
+  },"AndoainMod:IceCreamCoffee":
+  {
+    "NAME": "冰淇淋咖啡",
+    "DESCRIPTIONS": [
+      "从三张冰淇淋机召唤牌中选择1张加入手牌 #b",
+      " 次，这张牌本回合费用为 #b0 ，使用后被消耗。",
+      "请选择"
+    ]
+  },"AndoainMod:HotMilk":
+{
+  "NAME": "热牛奶",
+  "DESCRIPTIONS": [
+    "将 #b",
+    " 张 #y祷告+ 加入手牌"
+  ]
+},"AndoainMod:MostimaPotion": {
+  "NAME": "家酿生啤",
+  "DESCRIPTIONS": [
+    "获得 #b"," 张 #y莫斯提马的支援+ 到你的手牌，这张牌本次费用为 #b0 。"
+  ]
+},"AndoainMod:AndoainPotion": {
+  "NAME": "静置过滤水",
+  "DESCRIPTIONS": [
+    "移除自身所有负面效果，然后在药水栏的所有空位生成随机的专属药水。"
+  ]
+},
+  "AndoainMod:FiammettaPotion": {
+    "NAME": "姜汁汽水",
+    "DESCRIPTIONS": [
+      "获得 #b"," 张 #y菲亚梅塔的报复+ 到你的手牌，这张牌本次费用为 #b0 。"
+    ]
+  },
+  "AndoainMod:LemuenPotion": {
+    "NAME": "桃红葡萄酒",
+    "DESCRIPTIONS": [
+      "获得 #b"," 张 #y蕾缪安的注视+ 到你的手牌，这张牌本次费用为 #b0 。"
+    ]
+  }
+}

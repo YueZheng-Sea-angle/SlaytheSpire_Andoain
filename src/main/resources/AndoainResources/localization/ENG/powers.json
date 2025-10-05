@@ -1,0 +1,275 @@
+{
+
+  "AndoainMod:Obsessed": {
+    "NAME": "Underground Sight",
+    "DESCRIPTIONS": [
+      "At the start of each turn, gain [E], 1 Strength, 1 Dexterity, 1 Gold, shuffle 1 Dazed and 1 Wound into draw pile.","At the start of each turn, gain [E], 1 Strength, 1 Dexterity, 1 Gold, shuffle 1 Dazed and 1 Wound into discard pile."
+    ]
+  },"AndoainMod:ObsessedPower": {
+  "NAME": "Underground Sight",
+  "DESCRIPTIONS": [
+    "At the start of each turn, gain [E], 1 Strength, 1 Dexterity, 1 Gold, shuffle 1 Dazed and 1 Wound into draw pile.","At the start of each turn, gain [E], 1 Strength, 1 Dexterity, 1 Gold, shuffle 1 Dazed and 1 Wound into discard pile."
+  ]
+},
+  "AndoainMod:LightUntoSufferers": {
+    "NAME": "Light Unto Sufferers",
+    "DESCRIPTIONS": [
+      "At the start of turn, have #b%d%% chance to gain 1 #yBuffet. When taking damage, heal #b%d%% of damage taken. Light Unto Sufferers decreases by 1 stack each turn."
+    ]
+  },
+  "AndoainMod:NiceCake": {
+    "NAME": "Thousand-Layer Cake",
+    "DESCRIPTIONS": [
+      "Light Unto Sufferers' healing amount and damage immunity chance are both increased to 70%."
+    ]
+  },
+  "AndoainMod:TheWorld": {
+    "NAME": "All Living Beings",
+    "DESCRIPTIONS": [
+      "When you gain #yLight Unto Sufferers, #yAmmunition, or #yDream, draw #b1 card."
+    ]
+  },
+  "AndoainMod:Ammunition": {
+    "NAME": "Ammunition",
+    "DESCRIPTIONS": [
+      "Ammunition: %d/%d. Some cards consume ammunition for enhanced effects; some cards restore ammunition and ammunition limit."
+    ]
+  },"AndoainMod:AmmoLock": {
+  "NAME": "Ammunition Lock",
+  "DESCRIPTIONS": [
+    "Can no longer gain ammunition."
+  ]
+},"AndoainMod:NoAmmoGain": {
+  "NAME": "Ammunition Block",
+  "DESCRIPTIONS": [
+    "Cannot gain ammunition this turn.",
+    "Cannot gain ammunition for the next #b%1$s turns."
+  ]
+},
+  "AndoainMod:SquadCooldown": {
+    "NAME": "Squad Cooldown",
+    "DESCRIPTIONS": ["Cannot gain #y%s again for #b%d turns"]
+  },"AndoainMod:RequiemChurch": {
+  "NAME": "Requiem Church",
+  "DESCRIPTIONS": [
+    "At the start of turn, gain %d Block for every #yAmmunition."
+  ]
+},"AndoainMod:Cherish": {
+  "NAME": "Still Cherishing",
+  "DESCRIPTIONS": [
+    "At the start of turn, remove Block from a random enemy and apply 1 #ySlow, shuffle 1 #yBurn into discard pile",
+    "At the start of turn, remove Block from all enemies and apply 1 #ySlow to all enemies, shuffle 1 #yBurn+ into discard pile"
+  ]
+},"AndoainMod:Dream": {
+  "NAME": "Dream",
+  "DESCRIPTIONS": [
+    "Every 7 stacks of Dream entered Trance. Currently have "," stacks of Dream."
+  ]
+},
+  "AndoainMod:DeepDream": {
+    "NAME": "Trance",
+    "DESCRIPTIONS": [
+      "Gain 30 Block, cannot play Attack cards. At end of turn, automatically leave #yTrance.",
+      "What is an angel...how to persist..."
+    ]
+  },
+  "AndoainMod:SummitOfNations":{
+  "NAME":"Summit of Nations",
+  "DESCRIPTIONS": [
+    "At the start of turn, randomly gain "," Common or Uncommon card from another color, costs 0 this turn.",
+    "At the start of turn, randomly gain "," Uncommon or Rare card from another color, costs 0 this turn."
+  ]},"AndoainMod:CactusTart": {
+  "NAME": "Cactus Tart",
+  "DESCRIPTIONS": [
+    "At the start of turn, if ice cream machine faction is Enemy, gain ",
+    " Thorns."
+  ]
+},"AndoainMod:ThriftyHabits": {
+  "NAME": "Frugal Habits",
+  "DESCRIPTIONS": [
+    "When consuming ammunition, have #y50% chance to restore #y1 ammunition. When #yRicochet fails to trigger, definitely restore consumed ammunition."
+  ]
+},"AndoainMod:FallenHeaven": {
+  "NAME": "Fallen Heaven",
+  "DESCRIPTIONS": [
+    "Cannot gain #yAmmunition anymore. At the start of each turn, gain #b1 #yDream and [E]."
+  ]
+},"AndoainMod:FallenHeavenPower": {
+  "NAME": "Fallen Heaven",
+  "DESCRIPTIONS": [
+    "Cannot gain #yAmmunition anymore. At the start of each turn, gain #b1 #yDream and [E]."
+  ]
+},"AndoainMod:FreeNextCardPower": {
+  "NAME": "Uninvited",
+  "DESCRIPTIONS": [
+    "The next card you play costs no [E] and will be #yExhausted."
+  ]
+},"AndoainMod:NecroticDamage": {
+  "NAME": "Chocolate Ice Cream",
+  "DESCRIPTIONS": [
+    "At the start of turn, if there is an allied #yIce Cream Machine, apply #b1 stack of #yApoptotic Damage to all enemies."
+  ]
+},
+  "AndoainMod:NecroticStack": {
+    "NAME": "Apoptotic Damage",
+    "DESCRIPTIONS": [
+      "When reaching 3 stacks, clear and gain 3 stacks of Weak and Apoptotic Damage Immunity. Current stacks: ",
+      "."
+    ]
+  },
+  "AndoainMod:NecroticImmunity": {
+    "NAME": "Apoptotic Damage Immunity",
+    "DESCRIPTIONS": [
+      "Cannot gain Apoptotic Damage. Lose #b8% of current HP each turn."
+    ]
+  },"AndoainMod:WhiteCream": {
+  "NAME": "Vanilla Ice Cream",
+  "DESCRIPTIONS": [
+    "At the start of turn, if there is an allied #yIce Cream Machine, make it lose ",
+    " HP (retains at least 1 HP) and heal you ",
+    " HP."
+  ]
+},"AndoainMod:PurpleCream": {
+  "NAME": "Taro Ice Cream",
+  "DESCRIPTIONS": [
+    "At the start of turn, gain benefits based on Ice Cream Machine faction. Allied: gain [E]. Enemy: gain 1 stack of #yLight Unto Sufferers and 2 stacks of #yDream."
+  ]
+}, "AndoainMod:DarknessBeneathTheLight": {
+  "NAME": "Darkness Beneath the Light",
+  "DESCRIPTIONS": [
+    "Cannot play cards anymore.",
+    "Can still play ",
+    " cards."
+  ]
+},"AndoainMod:NurserySanctum": {
+  "NAME": "Nursery Sanctum",
+  "DESCRIPTIONS": [
+    "At the start of each turn, gain ",
+    " stacks of Dream, and make all units on the field randomly gain one status effect.",
+    "Greatly increases positive status effect probability and prevents gaining Stunned."
+  ]
+},"AndoainMod:MuddyBurn": {
+  "NAME": "Corruption Burn",
+  "DESCRIPTIONS": [
+    "When reaching %d stacks, immediately clear stacks and lose %d HP, gain %d Vulnerable and %d Corruption Burn Immunity."
+  ]
+},
+  "AndoainMod:MuddyBurnImmunity": {
+    "NAME": "Corruption Burn Immunity",
+    "DESCRIPTIONS": [
+      "Cannot gain Corruption Burn.",
+      "Cannot gain Corruption Burn. Lasts %d turns."
+    ]
+  },
+  "AndoainMod:StunForPlayer": {
+    "NAME": "Stunned",
+    "DESCRIPTIONS": [
+      "You can only play 1 more card.",
+      "You can only play #b",
+      " more cards."
+    ]
+  },
+  "AndoainMod:Requiem": {
+    "NAME": "Requiem",
+    "DESCRIPTIONS": [
+      "At end of turn, exhaust all Curses and Status cards in hand. For each exhausted card, gain #b4 Block and #b1 stack of #yDream ",
+      "At end of turn, exhaust all Curses and Status cards in hand. For each exhausted card, gain #b5 Block and #b1 stack of #yDream "
+    ]
+
+  },"AndoainMod:LTSong": {
+  "NAME": "Hymn",
+  "DESCRIPTIONS": [
+    "At the start of each turn, gain a #yPrayer.",
+    "At the start of each turn, gain a #yPrayer+."
+  ]
+
+},"AndoainMod:FirnLightModifier": {
+  "NAME": "I Wish to Move Forward",
+  "DESCRIPTIONS": [
+    "The decay rate of Light Unto Sufferers stacks is now changed to lose 1 stack every 2 turns."
+  ]
+
+},"AndoainMod:NoLightPenalty": {
+  "NAME": "Light and Shadow",
+  "DESCRIPTIONS": [
+    "At end of turn, if you have no Light Unto Sufferers, lose ",
+    " Max HP."
+  ]
+
+},"AndoainMod:Angel": {
+  "NAME": "Angel",
+  "DESCRIPTIONS": [
+    "At the start of turn, gain #b2  #yDream. NL You can play Attack cards while in #yDeepDream . NL When entering and leaving #yDeepDream , gain #b%1$s  #yStrength ."
+  ]
+
+},"AndoainMod:RetainCard": {
+  "NAME": "Persistent",
+  "DESCRIPTIONS": [
+    "At end of turn, choose 1 card to retain."
+  ]
+},"AndoainMod:SelectiveRetain": {
+  "NAME": "Persistent",
+  "DESCRIPTIONS": [
+    "At end of turn, choose 1 card to retain."
+  ]
+},"AndoainMod:ShadowAndAsh": {
+  "NAME": "Shadow and Ash",
+  "DESCRIPTIONS": [
+    "At the start of each turn, exhaust all Status and Curse cards from draw pile, discard pile, and hand. For each card exhausted, gain 1 Strength, 1 Dexterity (max 10 stacks), and heal 1 HP (max 10 HP)."
+  ]
+},"AndoainMod:GuidingAhead": {
+  "NAME": "Guiding Ahead",
+  "DESCRIPTIONS": [
+    "At the start of each turn, gain a #yPathfinder.",
+    "At the start of each turn, gain a #yPathfinder+."
+  ]
+},"ShadowAndAsh": {
+  "NAME": "Shadow and Ash",
+  "DESCRIPTIONS": [
+    "At the start of each turn, exhaust all Status and Curse cards from draw pile, discard pile, and hand. For each card exhausted, gain 1 Strength, 1 Dexterity (max 10 stacks), and heal 1 HP (max 10 HP)."
+  ]
+},"AndoainMod:SeeWealthIntentPower": {
+  "NAME": "Greed Seen, Intent Born",
+  "DESCRIPTIONS": [
+    "When winning combat, gain an additional #b",
+    " Gold."
+  ]
+},"AndoainMod:Echo": {
+  "NAME": "Sympathy of Life and Death Entrusted",
+  "DESCRIPTIONS": [
+    "When you and the Ice Cream Machine gain Block, heal HP, or take damage through abilities other than this one, apply the same effect to the other."
+  ]
+},"AndoainMod:EchoPower": {
+  "NAME": "Sympathy of Life and Death Entrusted",
+  "DESCRIPTIONS": [
+    "When you and the Ice Cream Machine gain Block, heal HP, or take damage through abilities other than this one, apply the same effect to the other."
+  ]
+},
+  "AndoainMod:ConfessReward": {
+    "NAME": "Confession Reward",
+    "DESCRIPTIONS": [
+      "After winning combat, have %d%% chance to gain a random Andoain relic."
+    ]
+  },"AndoainMod:AutoRefrigeration": {
+  "NAME": "Fully Automated Cooling",
+  "DESCRIPTIONS": [
+    "Gain an #yExhaust #ySugar-Free Cooling every other turn."
+  ]
+},"AndoainMod:AutoRefrigerationPower": {
+  "NAME": "Fully Automated Cooling",
+  "DESCRIPTIONS": [
+    "Gain an #yExhaust #ySugar-Free Cooling every other turn."
+  ]
+},"AndoainMod:DamageLinkPower": {
+  "NAME": "Ice Cream Empathy",
+  "DESCRIPTIONS": [
+    "#b80% of your attack damage is additionally synchronized to allied Ice Cream Machine."
+  ]
+},
+  "AndoainMod:FindPathCooldown": {
+    "NAME": "Pathfinding Cooldown",
+    "DESCRIPTIONS": [
+      "Cannot play #yPathfinding or upgraded #yPathfinding this turn."
+    ]
+  }
+}

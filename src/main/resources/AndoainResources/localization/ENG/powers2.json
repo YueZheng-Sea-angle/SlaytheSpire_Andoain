@@ -1,0 +1,269 @@
+{
+  "AndoainMod:Obsessed": {
+    "NAME": "地宫所见",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得1能量、1力量、1敏捷、1金币，将1张疑虑、1张伤口洗入抽牌堆","每回合开始时，获得1能量、1力量、1敏捷、1金币，将1张疑虑、1张伤口洗入弃牌堆"
+    ]
+  },"AndoainMod:ObsessedPower": {
+  "NAME": "地宫所见",
+  "DESCRIPTIONS": [
+    "每回合开始时，获得1能量、1力量、1敏捷、1金币，将1张疑虑、1张伤口洗入抽牌堆","每回合开始时，获得1能量、1力量、1敏捷、1金币，将1张疑虑、1张伤口洗入弃牌堆"
+  ]
+},
+  "AndoainMod:LightUntoSufferers": {
+    "NAME": "光赐于苦",
+    "DESCRIPTIONS": [
+      "回合开始时有 #b%d%% 概率获得1层 #y缓冲 。受到伤害时，回复伤害值 #b%d%% 的生命。光赐于苦每回合减少1层。"
+    ]
+  },
+  "AndoainMod:NiceCake": {
+    "NAME": "千层蛋糕",
+    "DESCRIPTIONS": [
+      "光赐于苦现在的治疗量和提供免伤概率均提升至70%。"
+    ]
+  },
+  "AndoainMod:TheWorld": {
+    "NAME": "众生行记",
+    "DESCRIPTIONS": [
+      "你获得 #y光赐于苦 、 #y弹药 或 #y梦境 时，抽 #b1 张牌。"
+    ]
+  },
+  "AndoainMod:Ammunition": {
+    "NAME": "弹药",
+    "DESCRIPTIONS": [
+      "弹药：%d/%d。部分卡牌可消耗弹药获得增强效果，部分卡牌可补充弹药和弹药上限。"
+    ]
+  },"AndoainMod:NoAmmoGain": {
+  "NAME": "弹药封锁",
+  "DESCRIPTIONS": [
+    "本回合无法获得弹药。",
+    "在接下来的 #b%1$s 回合内无法获得弹药。"
+  ]
+},
+  "AndoainMod:SquadCooldown": {
+    "NAME": "小队冷却",
+    "DESCRIPTIONS": ["无法再次获得 #y%s，持续 #b%d 回合"]
+  },"AndoainMod:RequiemChurch": {
+  "NAME": "安魂教堂",
+  "DESCRIPTIONS": [
+    "回合开始时，每点 #y弹药 获得%d点格挡。"
+  ]
+},"AndoainMod:Cherish": {
+  "NAME": "我仍留恋",
+  "DESCRIPTIONS": [
+    "每回合开始时，随机选择1个敌人清空格挡并施加1层缓慢，将一张 #y灼伤 洗入弃牌堆",
+    "每回合开始时，清空所有敌人格挡并施加1层缓慢，将一张 #y灼伤+ 洗入弃牌堆"
+  ]
+},"AndoainMod:Dream": {
+  "NAME": "梦境",
+  "DESCRIPTIONS": [
+    "每获得7层梦境,就进入迷梦。目前已有","层梦境。"
+  ]
+},
+  "AndoainMod:DeepDream": {
+    "NAME": "迷梦",
+    "DESCRIPTIONS": [
+      "获得30点格挡，不能打出攻击牌。在回合结束时，自动离开 #y迷梦 。",
+      "沉眠在迷梦中吧……"
+    ]
+  },
+  "AndoainMod:SummitOfNations":{
+  "NAME":"万国峰会",
+  "DESCRIPTIONS": [
+    "每回合开始时，随机获得","张其他颜色的普通或罕见牌，这张牌本回合费用为0。",
+    "每回合开始时，随机获得","张其他颜色的罕见或稀有牌，这张牌本回合费用为0。"
+  ]},"AndoainMod:CactusTart": {
+  "NAME": "仙人掌挞",
+  "DESCRIPTIONS": [
+    "回合开始时，若冰淇淋机阵营为敌方，获得 ",
+    " 点荆棘。"
+  ]
+},"AndoainMod:ThriftyHabits": {
+  "NAME": "节约风气",
+  "DESCRIPTIONS": [
+    "消耗弹药时，有 #y50% 的几率返还 #y1 点弹药。未成功触发 #y弹射 时，必定返还消耗的弹药。"
+  ]
+},"AndoainMod:FallenHeaven": {
+  "NAME": "堕天",
+  "DESCRIPTIONS": [
+    "无法再获得 #y弹药 。每回合开始时，获得 #b1 #y力量 和 #b1 #y能量 。"
+  ]
+},"AndoainMod:FreeNextCardPower": {
+  "NAME": "不请自来",
+  "DESCRIPTIONS": [
+    "你打出的下一张牌不消耗 [E] 且将被 #y消耗 。"
+  ]
+},"AndoainMod:NecroticDamage": {
+  "NAME": "巧克力冰淇淋",
+  "DESCRIPTIONS": [
+    "回合开始时，若存在 #b友方  #y冰淇淋机 ，对所有敌人施加 #b1 层 #y凋亡损伤 。"
+  ]
+},
+  "AndoainMod:NecroticStack": {
+    "NAME": "凋亡损伤",
+    "DESCRIPTIONS": [
+      "当达到3层时，清空并获得3层虚弱和凋亡损伤免疫。当前层数：",
+      "。"
+    ]
+  },
+  "AndoainMod:NecroticImmunity": {
+    "NAME": "凋亡损伤免疫",
+    "DESCRIPTIONS": [
+      "不能获得凋亡损伤。每回合失去当前生命值 #b8% 的生命。"
+    ]
+  },"AndoainMod:WhiteCream": {
+  "NAME": "香草冰淇淋",
+  "DESCRIPTIONS": [
+    "回合开始时，若存在 #b友方  #y冰淇淋机 ，则令其失去",
+    "点生命（至少保留1生命），并治疗你",
+    "点生命。"
+  ]
+},"AndoainMod:PurpleCream": {
+  "NAME": "香芋冰淇淋",
+  "DESCRIPTIONS": [
+    "回合开始时，根据冰淇淋机阵营获得增益。 #b友方 ：获得 [E] 。 #r敌方 ：获得1层 #y光赐于苦 。"
+  ]
+}, "AndoainMod:DarknessBeneathTheLight": {
+  "NAME": "灯下黑",
+  "DESCRIPTIONS": [
+    "不能再打出牌。",
+    "还能打出",
+    "张牌。"
+  ]
+},"AndoainMod:NurserySanctum": {
+  "NAME": "育婴圣堂",
+  "DESCRIPTIONS": [
+    "每回合开始时，获得 #b",
+    "层梦境，并使场上所有单位随机获得一项状态。",
+    "大幅提升正面状态概率，且不会获得晕眩。"
+  ]
+},"AndoainMod:MuddyBurn": {
+  "NAME": "浊燃损伤",
+  "DESCRIPTIONS": [
+    "达到 %d 层时，立刻清空层数并流失 %d 点生命，获得 %d 层易伤和 %d 层浊燃损伤免疫。"
+  ]
+},
+  "AndoainMod:MuddyBurnImmunity": {
+    "NAME": "浊燃损伤免疫",
+    "DESCRIPTIONS": [
+      "不能获得浊燃损伤。",
+      "不能获得浊燃损伤。持续 %d 回合。"
+    ]
+  },
+  "AndoainMod:StunForPlayer": {
+    "NAME": "晕眩",
+    "DESCRIPTIONS": [
+      "此状态下你只能打出1张牌。",
+      "你不能再出牌了。",
+      "张牌。"
+    ]
+  },
+  "AndoainMod:Requiem": {
+    "NAME": "安魂曲",
+    "DESCRIPTIONS": [
+      "回合结束时，消耗所有手牌中的诅咒和状态牌。每消耗一张获得 #b4 点格挡和 #b1 层 #y梦境 ",
+      "回合结束时，消耗所有手牌中的诅咒和状态牌。每消耗一张获得 #b5 点格挡和 #b1 层 #y梦境 "
+    ]
+
+  },"AndoainMod:LTSong": {
+  "NAME": "颂歌",
+  "DESCRIPTIONS": [
+    "每回合开始时，获得一张 #y祷告 。",
+    "每回合开始时，获得一张 #y祷告+ 。"
+  ]
+
+},"AndoainMod:FirnLightModifier": {
+  "NAME": "我愿向前",
+  "DESCRIPTIONS": [
+    "光赐于苦的层数减少速度现在改为每2回合失去1层。"
+  ]
+
+},"AndoainMod:NoLightPenalty": {
+  "NAME": "光与影",
+  "DESCRIPTIONS": [
+    "回合结束时若没有光赐于苦，失去",
+    "点最大生命值。"
+  ]
+
+},"AndoainMod:Angel": {
+  "NAME": "天使",
+  "DESCRIPTIONS": [
+    "每回合开始时获得 #b2 层 #y梦境。 NL 在 #y迷梦 状态下可以打出攻击牌。 NL 进入和离开 #y迷梦 时，获得 #b%1$s 点 #y力量 和 [E] 。",
+    "每回合开始时获得 #b2 层 #y梦境。 NL 在 #y迷梦 状态下可以打出攻击牌。 NL 进入和离开 #y迷梦 时，获得 #b%1$s 点 #y力量 和 [E] 。"
+  ]
+
+},
+
+  "AndoainMod:TimeClock": {
+    "NAME": "时钟",
+    "DESCRIPTIONS": [
+      "每当获得12层，获得一个新的回合，目前已有",
+      "层时钟计数。"
+    ]
+  },"AndoainMod:RetainCard": {
+  "NAME": "执着",
+  "DESCRIPTIONS": [
+    "回合结束时，选择1张卡牌保留。"
+  ]
+},"AndoainMod:SelectiveRetain": {
+  "NAME": "执着",
+  "DESCRIPTIONS": [
+    "回合结束时，选择1张卡牌保留。"
+  ]
+},"AndoainMod:ShadowAndAsh": {
+  "NAME": "影与灰",
+  "DESCRIPTIONS": [
+    "每回合开始时，消耗抽牌堆、弃牌堆、手牌内所有状态和诅咒牌，每张获得力量1、敏捷1（上限20层），恢复2点生命。"
+  ]
+},"AndoainMod:GuidingAhead": {
+  "NAME": "吾导先路",
+  "DESCRIPTIONS": [
+    "每回合开始时，获得一张 #y寻路者 。","每回合开始时，获得一张 #y寻路者+ 。"
+  ]
+},"ShadowAndAsh": {
+  "NAME": "影与灰",
+  "DESCRIPTIONS": [
+    "每回合开始时，消耗抽牌堆、弃牌堆、手牌内所有状态和诅咒牌，每张获得力量1、敏捷1（上限20层），恢复2点生命。"
+  ]
+},"AndoainMod:SeeWealthIntentPower": {
+  "NAME": "见财起意",
+  "DESCRIPTIONS": [
+    "战斗胜利时额外获得 #b",
+    " 金币。"
+  ]
+},"AndoainMod:Echo": {
+  "NAME": "交托生死的共感",
+  "DESCRIPTIONS": [
+    "你和冰淇淋机因非本能力而获得格挡、恢复生命、受到伤害时，对另一方施加同样效果。"
+  ]
+},"AndoainMod:EchoPower": {
+  "NAME": "交托生死的共感",
+  "DESCRIPTIONS": [
+    "你和冰淇淋机因非本能力而获得格挡、恢复生命、受到伤害时，对另一方施加同样效果。"
+  ]
+},
+  "AndoainMod:ConfessReward": {
+    "NAME": "告解奖励",
+    "DESCRIPTIONS": [
+      "战斗胜利后有%d%%概率获得安多恩的随机遗物。"
+    ]
+  },"AndoainMod:AutoRefrigeration": {
+  "NAME": "全自动制冷",
+  "DESCRIPTIONS": [
+    "每隔一回合获得一张 #y无糖制冷 。"
+  ]
+},"AndoainMod:AutoRefrigerationPower": {
+  "NAME": "全自动制冷",
+  "DESCRIPTIONS": [
+    "每隔一回合获得一张 #y无糖制冷 。"
+  ]
+},
+
+
+  "AndoainMod:DamageLinkPower": {
+  "NAME": "冰淇淋共感",
+  "DESCRIPTIONS": [
+    "你受到的攻击伤害的 #b80% 会额外同步给友方冰淇淋机。"
+  ]
+}
+}

@@ -1,0 +1,28 @@
+{
+  "Andoain:IceCreamMachine": {
+    "NAME": "Ice Cream Machine",
+    "MOVES": [
+      " #yMinion . Switches sides when defeated.",
+      " #yMinion . Switches sides when defeated."
+    ],
+    "DESCRIPTIONS": [
+      "Minion. Switches sides when defeated.",
+      "Enemy: Gives all enemies 1 #yStrength and 2 #yArtifact per turn. When defeated, stuns all enemies for 1 turn and deals 10 damage.",
+      "Ally: When you take damage, reduce it by 50%. Gain 1 Ammunition and draw 1 card each turn. When defeated, gain 1 #yVulnerable and add 2 #yVoid cards to your draw pile."
+    ],
+    "DEFAULT_NAME": "Ice Cream Machine"
+  },
+  "Andoain:IceCreamMachineBlue": {
+    "NAME": "Ice Cream Machine - Friendly",
+    "MOVES": [
+      "Enemy: Refrigeration Protocol - Strength and Artifacts",
+      "Ally: Refrigeration Protocol - Ammunition and Card Draw"
+    ],
+    "DESCRIPTIONS": [
+      "Minion. Switches sides when defeated.",
+      "Enemy: Gives all enemies 1 #yStrength and 2 #yArtifact per turn. When defeated, stuns all enemies for 1 turn and deals 10 damage.",
+      "Ally: When you take damage, reduce it by 50%. Gain 1 Ammunition, 4 #yBlock, and draw 1 card each turn. When defeated, gain 1 #yVulnerable and add 2 #yVoid cards to your draw pile."
+    ],
+    "DEFAULT_NAME": "Leading Ice Cream Machine"
+  }
+}

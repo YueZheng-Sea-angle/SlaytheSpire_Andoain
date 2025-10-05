@@ -1,0 +1,437 @@
+{
+  "AndoainMod:Strike": {
+    "NAME": "Standard Ricochet Strike",
+    "DESCRIPTION": "Deal !D! damage.   andoainmod:ricochet .   "
+  },
+  "AndoainMod:Defend": {
+    "NAME": "Standard Defense Arts",
+    "DESCRIPTION": "Gain !B! Block."
+  },"AndoainMod:IrisBlue": {
+  "NAME": "Violet",
+  "DESCRIPTION": "Gain !B! Block. NL Summon [#66CCFF]Allied[] andoainmod:ice-cream-machine . NL Draw !M! cards. NL Exhaust .",
+  "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Summon [#66CCFF]Allied[] andoainmod:ice-cream-machine . NL Draw !M! cards. NL Exhaust ."
+},
+  "AndoainMod:Lemuen": {
+    "NAME": "Lemuen's Gaze",
+    "DESCRIPTION": "Deal !D! damage to an enemy, ignoring Block, then apply 1 Vulnerable. Retain."
+  },
+  "AndoainMod:Lemuen_E": {
+    "NAME": "Lemuen's Gaze",
+    "DESCRIPTION": "Exhaust. Ethereal. NL Deal !D! damage to an enemy, ignoring Block, then apply 1 Vulnerable."
+  },
+  "AndoainMod:Obsessed": {
+    "NAME": "Underground Sight",
+    "DESCRIPTION": "At the start of each turn, gain [E], 1 Strength, 1 Dexterity, 1 Gold, shuffle 1 Dazed and 1 Wound into draw pile.",
+    "UPGRADE_DESCRIPTION": "At the start of each turn, gain [E], 1 Strength, 1 Dexterity, 1 Gold, shuffle 1 Dazed and 1 Wound into *discard pile."
+  },"AndoainMod:RequiemChurch": {
+  "NAME": "Requiem Church",
+  "DESCRIPTION": "At the start of each turn, for every 1 andoainmod:ammunition, gain !M! Block.",
+  "UPGRADE_DESCRIPTION": "At the start of each turn, for every 1 andoainmod:ammunition, gain !M! Block."
+},
+  "AndoainMod:Eulogy": {
+    "NAME": "Eulogy",
+    "DESCRIPTION": "Deal !D! damage, apply !M! Vulnerable to enemies.   andoainmod:ricochet . NL Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, apply !M! Vulnerable to enemies.   andoainmod:ricochet . NL Draw 2 cards."
+  },
+  "AndoainMod:WayOfSuffering": {
+    "NAME": "Way of Suffering",
+    "DESCRIPTION": " Exhaust . Gain !M! stacks of andoainmod:light-unto-sufferers . When drawn, add a copy of this card to hand. NL Draw 2 cards.",
+    "UPGRADE_DESCRIPTION": " Exhaust . Gain !M! stacks of andoainmod:light-unto-sufferers . When drawn, add a copy of this card to hand. NL Draw 2 cards."
+  },
+  "AndoainMod:AmmoDepot": {
+  "NAME": "Extra-Legal Ammunition Depot",
+  "DESCRIPTION": " Gain ammunition equal to your andoainmod:ammunition limit. For each point of overflow, gain 3 Block and draw 1 card. Exhaust .",
+  "UPGRADE_DESCRIPTION": " Gain ammunition equal to your andoainmod:ammunition limit. For each point of overflow, gain 3 Block and draw 1 card.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Gain !B! Block)."
+    ]
+},"AndoainMod:Prayer": {
+  "NAME": "Prayer",
+  "DESCRIPTION": " Exhaust all status cards and curses in hand, gain !B! Block. NL Randomly gain !M! of: 1 Energy / 1  andoainmod:ammunition  / draw 1 card.",
+  "UPGRADE_DESCRIPTION": " Exhaust all status cards and curses in hand, gain !B! Block. NL Randomly gain !M! of: 1 Energy / 1  andoainmod:ammunition  / draw 1 card."
+},"AndoainMod:Reload": {
+  "NAME": "Reload",
+  "DESCRIPTION": "Gain 1  andoainmod:ammunition  , then draw cards equal to current ammunition. Exhaust .",
+  "UPGRADE_DESCRIPTION": "Gain 2  andoainmod:ammunition  , then draw cards equal to current ammunition. Exhaust ."
+},"AndoainMod:RecursiveSolution": {
+  "NAME": "Recursive Solution",
+  "DESCRIPTION": "Gain Block equal to remaining  andoainmod:ammunition  4 times, refill ammunition. This card's multiplier decreases by 1 and shuffles back into draw pile.",
+  "UPGRADE_DESCRIPTION": "Gain Block equal to remaining  andoainmod:ammunition  6 times, refill ammunition. This card's multiplier decreases by 1 and shuffles back into draw pile.",
+  "EXTENDED_DESCRIPTION": [
+    " NL (Current multiplier: %d)"
+  ]
+},"AndoainMod:TrialAndError": {
+  "NAME": "Trial and Error",
+  "DESCRIPTION": "Gain Strength equal to remaining  andoainmod:ammunition  1 times, ammo limit -1, this card's multiplier increases by 1 and shuffles back into draw pile.",
+  "UPGRADE_DESCRIPTION": "Gain Strength equal to remaining  andoainmod:ammunition  1 times, ammo limit -1, this card's multiplier increases by 1 and shuffles back into draw pile.",
+  "EXTENDED_DESCRIPTION": [
+    " NL (Current multiplier: %d)"
+  ]
+},"AndoainMod:Cherish": {
+  "NAME": "Still Cherished", 
+  "DESCRIPTION": "At the start of turn, remove Block from a random enemy and apply 1 stack of andoainmod:slow , shuffle 1 Burn into discard pile.",
+  "UPGRADE_DESCRIPTION": "At the start of turn, remove Block from *all enemies, apply 1 stack of andoainmod:slow to *all enemies, shuffle 1 upgraded Burn into discard pile."
+},"AndoainMod:FindPath": {
+  "NAME": "Pathfinding",
+  "DESCRIPTION": " Exhaust . NL Choose one of the following andoainmod:path . NL *Myth NL *Obsession NL *Crossing ",
+  "UPGRADE_DESCRIPTION": " Retain . Exhaust . NL Choose one of the following *Path . NL *Myth NL *Obsession NL *Crossing "
+},"AndoainMod:Myth": {
+  "NAME": "Myth",
+  "DESCRIPTION": "Gain 1 Weak , shuffle 1 Dazed into hand, then apply 1 stack of andoainmod:stunned to all enemies. Gain 2 stacks of andoainmod:dream .",
+  "UPGRADE_DESCRIPTION": "Gain 1 Weak , shuffle 1 Dazed into hand, then apply 1 stack of andoainmod:stunned to all enemies. Gain 2 stacks of andoainmod:dream ."
+},"AndoainMod:Obsession": {
+  "NAME": "Obsession",
+  "DESCRIPTION": "Gain 1 Strength , 1 Artifact , heal 5 health, at the end of each turn choose to Retain 1 card in hand",
+  "UPGRADE_DESCRIPTION": "Gain 1 Strength , 1 Artifact , heal 5 health, at the end of each turn choose to Retain 1 card in hand"
+},  "AndoainMod:Crossing": {
+    "NAME": "Crossing",
+    "DESCRIPTION": "Add an upgraded *Pathfinding + to hand, then shuffle an andoainmod:pathfinding into draw pile. Gain 1 stack of andoainmod:light-unto-sufferers . Cannot play andoainmod:pathfinding this turn .",
+    "UPGRADE_DESCRIPTION": "Add an upgraded *Pathfinding + to hand, then shuffle an *Pathfinding into draw pile. Gain 1 stack of andoainmod:light-unto-sufferers . Cannot play andoainmod:pathfinding this turn ."
+  },
+  "AndoainMod:Iris": {
+    "NAME": "Iris",
+    "DESCRIPTION": "Gain !B! Block, summon [#FF0000]Enemy[] andoainmod:ice-cream-machine . NL If ice cream machine exists, draw 3 cards.",
+    "UPGRADE_DESCRIPTION": " Innate . NL Gain !B! Block, summon [#FF0000]Enemy[] andoainmod:ice-cream-machine . NL If ice cream machine exists, draw 3 cards."
+  },"AndoainMod:ShadowAndAsh": {
+  "NAME": "Shadow and Ash",
+  "DESCRIPTION": " Ethereal . Can only be played while in andoainmod:light-unto-sufferers state. Set ammunition and its limit to 0. NL Start of turn: Exhaust all *Status cards and *Curses in hand, draw pile, and discard pile, gaining 1 Strength, 1 Dexterity, heal 1 HP per card (max 10).",
+  "UPGRADE_DESCRIPTION": " Retain . Can only be played while in andoainmod:light-unto-sufferers state. Set ammunition and its limit to 0. NL Start of turn: Exhaust all *Status cards and *Curses in hand, draw pile, and discard pile, gaining 1 Strength, 1 Dexterity, heal 1 HP per card (max 10).",
+  "EXTENDED_DESCRIPTION":["Can only be played while in Light Unto Sufferers state."]
+
+
+},"AndoainMod:SeeWealthIntent": {
+  "NAME": "Greed Seen, Intent Born",
+  "DESCRIPTION": "You gain 30 additional gold when you win this combat (does not stack).",
+  "UPGRADE_DESCRIPTION": "You gain 30 additional gold when you win this combat (does not stack)."
+},"AndoainMod:Hyacinth": {
+  "NAME": "Hyacinth",
+  "DESCRIPTION": "Summon [#FF0000]Enemy[] andoainmod:ice-cream-machine . NL Deal andoainmod:stunned 2 turns.",
+  "UPGRADE_DESCRIPTION": "Summon [#FF0000]Enemy[] andoainmod:ice-cream-machine . NL Deal andoainmod:stunned 2 turns."},"AndoainMod:BackupGun": {
+  "NAME": "Backup Gun",
+  "DESCRIPTION": "Gain 1 ammunition, then deal !D! damage. andoainmod:ricochet .",
+  "UPGRADE_DESCRIPTION": "Gain 1 ammunition, then deal !D! damage. andoainmod:ricochet ."
+},
+  "AndoainMod:Overflowing": {
+    "NAME": "Overflowing",
+    "DESCRIPTION": "Consume all ammunition. For each bullet, deal !D! damage to random enemy target with andoainmod:ricochet . You cannot gain ammunition for !M! turns. NL andoainmod:deviation .",
+    "UPGRADE_DESCRIPTION": "Consume all ammunition modulo for each bullet, deal !D! damage to random enemy target with andoainmod:ricochet . You cannot gain ammunition for !M! turns. NL andoainmod:deviation ."
+
+},"AndoainMod:Dazzle": {
+  "NAME": "Dazzle",
+  "DESCRIPTION": " Exhaust . Deal !D! damage, gain !M! stacks of andoainmod:light-unto-sufferers , apply 1 Weak . andoainmod:ricochet .",
+  "UPGRADE_DESCRIPTION": " Exhaust . Deal !D! damage, gain !M! stacks of andoainmod:light-unto-sufferers , apply 1 Weak . andoainmod:ricochet ."
+},"AndoainMod:TheLaw": {
+  "NAME": "Sacred Hierarchy",
+  "DESCRIPTION": "Deal !D! damage, target loses !M! Strength, gain !B! Block. andoainmod:ricochet .",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage, target loses !M! Strength, gain !B! Block. andoainmod:ricochet ."
+},"AndoainMod:Mostima": {
+  "NAME": "Mostima's Support",
+  "DESCRIPTION": " Exhaust . Apply andoainmod:stunned 1 turn to all enemies, apply !M! stacks of andoainmod:slow to all enemies.",
+  "UPGRADE_DESCRIPTION": " Exhaust . Innate . NL Apply andoainmod:stunned 1 turn to all enemies, apply !M! stacks of andoainmod:slow to all enemies."
+},"AndoainMod:Mostima_E": {
+  "NAME": "Mostima's Support",
+  "DESCRIPTION": " Exhaust . Ethereal . NL Apply andoainmod:stunned 1 turn to all enemies, apply !M! stacks of andoainmod:slow to all enemies.",
+  "UPGRADE_DESCRIPTION": " Exhaust . Ethereal . NL Apply andoainmod:stunned 1 turn to all enemies, apply !M! stacks of andoainmod:slow to all enemies."
+},"AndoainMod:Fiammetta": {
+  "NAME": "Fiammetta's Vengeance",
+  "DESCRIPTION": " Exhaust . Deal !D! damage to all units except yourself. NL Add a *You Must Repay to hand.",
+  "UPGRADE_DESCRIPTION": " Exhaust . Deal !D! damage to all units except yourself. NL Add a *You Must Repay to hand."
+},"AndoainMod:Fiammetta_E": {
+  "NAME": "Fiammetta's Vengeance",
+  "DESCRIPTION": " Exhaust . Ethereal . NL Deal !D! damage to all units except yourself. NL Add a *You Must Repay to hand.",
+  "UPGRADE_DESCRIPTION": " Exhaust . Ethereal . NL Deal !D! damage to all units except yourself. NL Add a *You Must Repay to hand."
+},"AndoainMod:MyLateran": {
+  "NAME": "Laterano",
+  "DESCRIPTION": " Exhaust . NL Gain !M! stacks of andoainmod:light-unto-sufferers , triple all enemies' Vulnerable and andoainmod:slow stacks. NL If you have Status cards in hand, Exhaust them and gain [E] .",
+  "UPGRADE_DESCRIPTION": " Exhaust . NL Gain !M! stacks of andoainmod:light-unto-sufferers , triple all enemies' Vulnerable and andoainmod:slow stacks. NL If you have Status cards in hand, Exhaust them and gain [E] ."
+},"AndoainMod:MyLateran_E": {
+  "NAME": "Laterano",
+  "DESCRIPTION": " Exhaust . Ethereal . NL Gain !M! stacks of andoainmod:light-unto-sufferers , triple all enemies' Vulnerable and andoainmod:slow stacks. NL If you have Status cards in hand, Exhaust them and gain [E] .",
+  "UPGRADE_DESCRIPTION": " Exhaust . Ethereal . NL Gain !M! stacks of andoainmod:light-unto-sufferers , triple all enemies' Vulnerable and andoainmod:slow stacks. NL If you have Status cards in hand, Exhaust them and gain [E] ."
+},
+  "AndoainMod:OnceLivedForever": {
+    "NAME": "Once Lived Forever",
+    "DESCRIPTION": "Gain 1 stack of andoainmod:light-unto-sufferers . Every turn, randomly gain a card costing 0 with Ethereal and Exhaust of andoainmod:squad-card . NL Drawn cards won't be repeated within 3 turns.",
+    "UPGRADE_DESCRIPTION": "Gain 1 stack of andoainmod:light-unto-sufferers . Every turn, [#66CCFF]Choose[] to gain a card costing 0 with Ethereal and Exhaust of andoainmod:squad-card . NL Chosen cards cannot be repeated within 3 turns."
+  },
+  "AndoainMod:YouMustRepay": {
+    "NAME": "You Must Repay",
+    "DESCRIPTION": "At end of turn, lose 4 HP.",
+    "UPGRADE_DESCRIPTION": "At end of turn, lose 4 HP."
+  },
+  "AndoainMod:Echo": {
+    "NAME": "Sympathy of Life and Death Entrusted",
+    "DESCRIPTION": "When you or andoainmod:ice-cream-machine gain Block, heal HP, or take attack damage from non-ability sources, apply the same effect to the other.",
+    "UPGRADE_DESCRIPTION": "When you or andoainmod:ice-cream-machine gain Block, heal HP, or take attack damage from non-ability sources, apply the same effect to the other."
+  },
+  "AndoainMod:CandyTime": {
+    "NAME": "Sugar-Free Cooling",
+    "DESCRIPTION": "Immediately change andoainmod:ice-cream-machine faction.",
+    "UPGRADE_DESCRIPTION": "Immediately change andoainmod:ice-cream-machine faction. Beforehand, gain 1 Artifact ."
+  },
+  "AndoainMod:CandyTime_E": {
+    "NAME": "Sugar-Free Cooling",
+    "DESCRIPTION": " Exhaust . NL Immediately change andoainmod:ice-cream-machine faction.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Immediately change andoainmod:ice-cream-machine faction. Beforehand, gain 1 Artifact ."
+  },
+  "AndoainMod:AutoRefrigeration": {
+    "NAME": "Fully Automated Cooling",
+    "DESCRIPTION": " Ethereal . NL When [#66CCFF]Allied[] andoainmod:ice-cream-machine is destroyed, no longer apply debuffs to player. NL Every turn, gain a card costing 0 with *Exhaust *Sugar-Free Cooling .",
+    "UPGRADE_DESCRIPTION": " NL When [#66CCFF]Allied[] andoainmod:ice-cream-machine is destroyed, no longer apply debuffs to player. NL Every turn, gain a card costing 0 with *Exhaust *Sugar-Free Cooling ."
+  },
+  "AndoainMod:Worship": {
+    "NAME": "Worship",
+    "DESCRIPTION": " Retain , Exhaust . Deal damage equal to andoainmod:weekly-order 4 times, gain Block equal to Weekly Order 4 times. On Wednesday, Saturday, Sunday gain 1 andoainmod:ammunition / [E] / 1 stack of andoainmod:light-unto-sufferers . When this card is Retained or Exhausted, advance Weekly Order by one day."
+  },
+  "AndoainMod:BattlefieldFlank": {
+    "NAME": "Battlefield Flank",
+    "DESCRIPTION": "Apply !M! Vulnerable first, then deal !D! damage. andoainmod:ricochet . NL You gain 1 Vulnerable.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Vulnerable first, then deal !D! damage. andoainmod:ricochet . NL You gain 1 Vulnerable."
+  },
+  "AndoainMod:BigBabyBottle": {
+    "NAME": "Big Baby Bottle",
+    "DESCRIPTION": " Exhaust . andoainmod:dream 4. NL Deal !D! damage, if target is not Boss, apply andoainmod:stunned 1 turn.",
+    "UPGRADE_DESCRIPTION": " Exhaust . andoainmod:dream 4. NL Deal !D! damage, if target is not Boss, apply andoainmod:stunned 1 turn."
+  },"AndoainMod:TheTime": {
+  "NAME": "Time and Light",
+  "DESCRIPTION": "Deal !D! damage and gain 3 stacks of andoainmod:dream . Apply 1 Weak to Elite and Boss enemies. andoainmod:ricochet .",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage and gain 3 stacks of andoainmod:dream . Apply *2 Weak to Elite and Boss enemies. andoainmod:ricochet ."
+},
+  "AndoainMod:UnInvited": {
+    "NAME": "Uninvited",
+    "DESCRIPTION": " Exhaust . Gain andoainmod:dream 4. NL Your next played card costs 0 [E] and will be Exhausted . NL If that card is andoainmod:squad-card , it ignores andoainmod:dream restriction.",
+    "UPGRADE_DESCRIPTION": " Exhaust . Gain andoainmod:dream 4. NL Your next played card costs 0 [E] and will be Exhausted . NL If that card is andoainmod:squad-card , it ignores andoainmod:dream restriction."
+  },
+
+  "AndoainMod:SeekingTruth": {
+    "NAME": "Seeking Truth",
+    "DESCRIPTION": "Deal !D! damage !M! times, andoainmod:ricochet , costs only 1 ammunition. NL Each time used in combat, all Seeking Truth deals -1 damage.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times, andoainmod:ricochet , costs only 1 ammunition. NL Each time used in combat, all Seeking Truth deals -1 damage."
+  },"AndoainMod:Protection": {
+  "NAME": "Protection",
+  "DESCRIPTION": "Gain !B! Block. NL [#66CCFF]Allied[] andoainmod:ice-cream-machine gains !M! stacks of Intangible .",
+  "UPGRADE_DESCRIPTION": "Gain !B! Block. NL [#66CCFF]Allied[] andoainmod:ice-cream-machine gains !M! stacks of Intangible ."
+}
+,"AndoainMod:Adaptation": {
+  "NAME": "Adaptation",
+  "DESCRIPTION": "For each unit with attack intent, gain !B! Block. NL If any unit doesn't have attack intent, gain [E] and !M! stacks of andoainmod:light-unto-sufferers ."
+},
+  "AndoainMod:MonasticIcon": {
+    "NAME": "Amazing Grace",
+    "DESCRIPTION": " andoainmod:dream 3. Deal !D! damage, randomly swap costs of all Attack cards in hand. andoainmod:ricochet .",
+    "UPGRADE_DESCRIPTION": " andoainmod:dream 3. Deal !D! damage, randomly swap costs of all Attack cards in hand after reducing costs by 1. andoainmod:ricochet ."
+  },"AndoainMod:OriginiumShield": {
+  "NAME": "Originium Shield",
+  "DESCRIPTION": " Exhaust . NL Gain !M! stacks of andoainmod:light-unto-sufferers and !B! Block.",
+  "UPGRADE_DESCRIPTION": " Exhaust . NL Gain !M! stacks of andoainmod:light-unto-sufferers and !B! Block."
+},"AndoainMod:CactusTart": {
+  "NAME": "Cactus Tart",
+  "DESCRIPTION": "Turn start: if andoainmod:ice-cream-machine faction is [#FF0000]Enemy[] , gain 2 Thorns .",
+  "UPGRADE_DESCRIPTION": "Turn start: if andoainmod:ice-cream-machine faction is [#FF0000]Enemy[] , gain 2 Thorns ."
+},"AndoainMod:TidalMemory": {
+  "NAME": "Tidal Echo",
+  "DESCRIPTION": " Exhaust . NL Gain 3 stacks of andoainmod:dream . NL Gain 4 Strength and 4 Dexterity . NL Shuffle 4 Dazed into discard pile. NL End your turn.",
+  "UPGRADE_DESCRIPTION": " Exhaust . NL Gain 3 stacks of andoainmod:dream . NL Gain 4 Strength and 4 Dexterity . NL Shuffle 4 Dazed into discard pile. NL End your turn."
+},"AndoainMod:Communion": {
+  "NAME": "Communion",
+  "DESCRIPTION": " Exhaust . NL Gain !M! stacks of andoainmod:dream . NL Apply 99 Weak and gain 99 Weak yourself.",
+  "UPGRADE_DESCRIPTION": " Exhaust . NL Gain !M! stacks of andoainmod:dream . NL Apply 99 Weak and gain *1 Weak yourself."
+},"AndoainMod:DessertTime": {
+  "NAME": "Dessert Time",
+  "DESCRIPTION": " Exhaust . NL Heal 4 HP. NL Heal [#66CCFF]Allied[] andoainmod:ice-cream-machine 10 .",
+  "UPGRADE_DESCRIPTION": " Exhaust . NL Heal *5 HP. NL Heal [#66CCFF]Allied[] andoainmod:ice-cream-machine [#66CCFF]13[] . "
+},
+  "AndoainMod:Funeral": {
+    "NAME": "Funeral",
+    "DESCRIPTION": "Deal !D! damage. NL If no andoainmod:execute , shuffle 1 Dazed into discard pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If no andoainmod:execute , shuffle 1 Dazed into discard pile."
+  },"AndoainMod:Enlightenment": {
+  "NAME": "Enlightenment",
+  "DESCRIPTION": "Deal !D! damage. NL Purge target's Strength bonus. NL Purge 1 stack of all your debuffs. NL andoainmod:ricochet .",
+  "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Purge target's Strength bonus. NL *Remove all your debuffs. NL andoainmod:ricochet ."
+},"AndoainMod:Liberation": {
+  "NAME": "Never Be Freed",
+  "DESCRIPTION": " andoainmod:limit-use #b3 . NL Infinite Upgrade . Deal !D! damage, enters draw pile after played. NL When andoainmod:execute enemy, upgrade this card."
+},"AndoainMod:DivineDesire": {
+  "NAME": "Divine Desire",
+  "DESCRIPTION": "Gain 1 andoainmod:ammunition , deal !D! damage. NL If destroy andoainmod:ice-cream-machine , gain [E] [E] [E] and draw 2 cards."
+},"AndoainMod:SummitOfNations": {
+  "NAME": "Summit of Nations",
+  "DESCRIPTION": "Turn start: randomly gain a Common or Uncommon card from another color, costs 0 this turn.",
+  "UPGRADE_DESCRIPTION": "Turn start: randomly gain an *Uncommon or *Rare card from another color, costs 0 this turn."
+},
+  "AndoainMod:Dream":{
+  "NAME": "Illusive Dream",
+  "DESCRIPTION": " Exhaust . Immediately enter andoainmod:dream . All enemies gain 1 Weak .",
+  "UPGRADE_DESCRIPTION": " Exhaust . Immediately enter andoainmod:dream . All enemies gain 1 Weak ."},
+  "AndoainMod:Sleep":{
+    "NAME": "Peace, Like Foam",
+    "DESCRIPTION": " Retain , Exhaust . Gain 7 Block, 1 stack of andoainmod:light-unto-sufferers . Retain all hand cards, end your turn.",
+    "UPGRADE_DESCRIPTION": " Retain , gain 7 Block, 1 stack of andoainmod:light-unto-sufferers . Retain all hand cards, end your turn."},
+  "AndoainMod:Patia":{
+  "NAME": "Ptilopsis' Care",
+  "DESCRIPTION": " Exhaust . Exhaust all Status cards in hand, then fill the following to 1: NL [E] , andoainmod:light-unto-sufferers , andoainmod:ammunition , hand count, potion count.",
+  "UPGRADE_DESCRIPTION": " Retain . Exhaust . Exhaust all Status cards in hand, then fill the following to 1: NL [E] , andoainmod:light-unto-sufferers , andoainmod:ammunition , hand count, potion count."},
+  "AndoainMod:ThriftyHabits":{
+    "NAME": "Thrifty Habits",
+    "DESCRIPTION": "When andoainmod:ammunition decreases, 50% chance to restore 1 ammunition. NL When ricochet fails to trigger, definitely restore consumed ammunition.",
+    "UPGRADE_DESCRIPTION": "When andoainmod:ammunition decreases, 50% chance to restore 1 ammunition. NL When ricochet fails to trigger, definitely restore consumed ammunition."},
+  "AndoainMod:FallenHeaven":{
+    "NAME": "Fallen Heaven",
+    "DESCRIPTION": "Turn start: gain [E] and 1 stack of andoainmod:dream . You can no longer gain andoainmod:ammunition .",
+    "UPGRADE_DESCRIPTION": "Turn start: gain [E] and 1 stack of andoainmod:dream . You can no longer gain andoainmod:ammunition ."},
+
+  "AndoainMod:IceCreamBlack": {
+    "NAME": "Chocolate Ice Cream",
+    "DESCRIPTION": "Turn start: if [#66CCFF]Allied[] andoainmod:ice-cream-machine exists, apply 1 stack of andoainmod:apoptotic-damage to all enemies.",
+    "UPGRADE_DESCRIPTION": "Turn start: if [#66CCFF]Allied[] andoainmod:ice-cream-machine exists, apply 1 stack of andoainmod:apoptotic-damage to all enemies."
+  },"AndoainMod:IceCreamWhite": {
+  "NAME": "Vanilla Ice Cream",
+  "DESCRIPTION": "Next !M! turns start: if [#66CCFF]Allied[] andoainmod:ice-cream-machine exists, make it lose 6 HP (keep at least 1) and heal you 4 HP.",
+  "UPGRADE_DESCRIPTION": "Next !M! turns start: if [#66CCFF]Allied[] andoainmod:ice-cream-machine exists, make it lose 6 HP (keep at least 1) and heal you 4 HP."
+},  "AndoainMod:IceCreamPurple": {
+    "NAME": "Taro Ice Cream",
+    "DESCRIPTION": "Turn start: gain effects based on andoainmod:ice-cream-machine faction. [#66CCFF]Allied[] : gain [E] . [#FF0000]Enemy[] : gain 1 stack of andoainmod:light-unto-sufferers and 2 stacks of andoainmod:dream .",
+    "UPGRADE_DESCRIPTION": " Innate . NL Turn start: gain effects based on andoainmod:ice-cream-machine faction. [#66CCFF]Allied[] : gain [E] . [#FF0000]Enemy[] : gain 1 stack of andoainmod:light-unto-sufferers and 2 stacks of andoainmod:dream ."
+  },"AndoainMod:WhatISee": {
+  "NAME": "What I See",
+  "DESCRIPTION": " Scry 3. For each stack of andoainmod:light-unto-sufferers , additionally scry !M! . If top card is Attack card, play it and Exhaust ."
+},"AndoainMod:DarknessBeneathTheLight": {
+  "NAME": "Darkness Beneath the Light",
+  "DESCRIPTION": "All Skill cards and Attack cards in hand cost 0 this turn. These cards are considered Status cards for this combat. You can play at most X-1 more cards this turn.",
+  "UPGRADE_DESCRIPTION": "All Skill cards and Attack cards in hand cost 0 this turn. These cards are considered Status cards for this combat. You can play at most *X more cards this turn."
+},"AndoainMod:NurserySanctum": {
+  "NAME": "Nursery Sanctum",
+  "DESCRIPTION": "Gain 2 Artifact .Turn start: gain 3 stacks of andoainmod:dream ,apply random positive or negative effects from andoainmod:effect-pool to all units.",
+  "UPGRADE_DESCRIPTION": "Gain 2 Artifact .Turn start: gain 3 stacks of andoainmod:dream ,apply random positive or negative effects from andoainmod:effect-pool + to all units. NL Upgrade Effect Pool base probability."
+},"AndoainMod:RainNight": {
+  "NAME": "Rainy Night",
+  "DESCRIPTION": "Double the following values or stacks: [E] , andoainmod:ammunition , Block, andoainmod:light-unto-sufferers , Weak, Vulnerable, Frail, andoainmod:dream . Add 2 Regret to hand."
+},"AndoainMod:Pathfinders": {
+  "NAME": "Pathfinders",
+  "DESCRIPTION": " Exhaust . Choose one of three Pathfinder cards to add to hand.",
+  "UPGRADE_DESCRIPTION": "Choose one of three upgraded Pathfinder cards to add to hand."
+},
+  "AndoainMod:PathfindersDessertChef": {
+    "NAME": "Pathfinder Dessert Chef",
+    "DESCRIPTION": " Retain , Exhaust . Deal !D! damage. When this card is retained, shuffle 1 *Pathfinder Dessert Truck into hand.",
+    "UPGRADE_DESCRIPTION": " Retain , Exhaust . Deal !D! damage. When this card is retained, shuffle 1 *Pathfinder Dessert Truck + into hand."
+  },
+  "AndoainMod:PathfindersDessertCart": {
+    "NAME": "Pathfinder Candy Cart",
+    "DESCRIPTION": " Retain , Exhaust . Deal 1 stack of andoainmod:burn-damage to all enemies.",
+    "UPGRADE_DESCRIPTION": " Retain , Exhaust . Deal 1 stack of andoainmod:burn-damage and 5 damage to all enemies."
+  },
+  "AndoainMod:PathfindersSorcerer": {
+    "NAME": "Pathfinder Sorcerer",
+    "DESCRIPTION": " Exhaust . NL Deal !D! damage and !M! stacks of Burn Damage to all enemies.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Deal !D! damage and !M! stacks of Burn Damage to all enemies."
+  },
+  "AndoainMod:PathfindersTearer": {
+    "NAME": "Pathfinders Territory Tearer",
+    "DESCRIPTION": "Exhaust .Deal !D! damage to all enemies.",
+    "UPGRADE_DESCRIPTION": "Exhaust .Deal !D! damage to all enemies."
+  },
+  "AndoainMod:Requiem": {
+    "NAME": "Requiem",
+    "DESCRIPTION": "Before turn ends, if you have curses or status cards in hand, Exhaust them. Gain !M! Block and 1 stack of andoainmod:dream for each card. This card does not leave andoainmod:dream at turn end when entering andoainmod:dream.",
+    "UPGRADE_DESCRIPTION": "Before turn ends, if you have curses or status cards in hand, Exhaust them. Gain !M! Block and 1 stack of andoainmod:dream for each card. This card does not leave andoainmod:dream at turn end when entering andoainmod:dream."
+  },
+  "AndoainMod:LTSong": {
+    "NAME": "Hymn",
+    "DESCRIPTION": "Turn start: gain a *Prayer .",
+    "UPGRADE_DESCRIPTION": "Turn start: gain a *Prayer + ."
+  },
+  "AndoainMod:Firn": {
+    "NAME": "I Wish to Move Forward",
+    "DESCRIPTION": " andoainmod:light-unto-sufferers current decay speed changed to decrease by 1 stack every 2 turns .",
+    "UPGRADE_DESCRIPTION": " andoainmod:light-unto-sufferers current decay speed changed to decrease by 1 stack every 2 turns ."
+  },
+  "AndoainMod:LightAndShadow": {
+    "NAME": "Light and Shadow",
+    "DESCRIPTION": " Exhaust . Ethereal . Gain 1 stack of Intangible and 3 stacks of andoainmod:light-unto-sufferers . Shuffle *Question into hand and *Answer into draw pile. NL At end of each turn, if you don't have andoainmod:light-unto-sufferers, lose 3 max HP.",
+    "UPGRADE_DESCRIPTION": " Exhaust . Gain 1 stack of Intangible and 3 stacks of andoainmod:light-unto-sufferers . Shuffle *Question into hand and *Answer into draw pile. NL At end of each turn, if you don't have andoainmod:light-unto-sufferers, lose 3 max HP."
+  },
+  "AndoainMod:Question": {
+    "NAME": "Question",
+    "DESCRIPTION": "Exhaust all cards in hand. These cards are treated as *Doubt in the Exhaust pile.",
+    "UPGRADE_DESCRIPTION": "Exhaust all cards in hand. These cards are treated as *Doubt in the Exhaust pile."
+  },
+  "AndoainMod:Answer": {
+    "NAME": "Answer",
+    "DESCRIPTION": "Exhaust all andoainmod:ammunition . Each bullet deals damage equal to 4 times the total number of Status cards and Curses in Exhaust pile.",
+    "UPGRADE_DESCRIPTION": "Exhaust all andoainmod:ammunition . Each bullet deals damage equal to 4 times the total number of Status cards and Curses in Exhaust pile."
+  },
+  "AndoainMod:Angel": {
+    "NAME": "Angel",
+    "DESCRIPTION": "At the start of turn, gain #2 andoainmod:dream. NL You can now play Attack cards while in #yDeepDream. When entering and leaving #yDeepDream, gain !M! andoainmod:strength.",
+    "UPGRADE_DESCRIPTION": "At the start of turn, gain #2 andoainmod:dream. NL You can now play Attack cards while in #yDeepDream. When entering and leaving #yDeepDream, gain !M! andoainmod:strength."
+  },
+  "AndoainMod:DreamWake": {
+    "NAME": "Dream Awakening",
+    "DESCRIPTION": "Can only be played while in andoainmod:dream. Deal !D! damage. Deal additional damage equal to total andoainmod:dream stacks gained this combat.",
+    "UPGRADE_DESCRIPTION": "Can only be played while in andoainmod:dream. Deal !D! damage. Deal additional damage equal to total andoainmod:dream stacks gained this combat.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Additional damage: %d)"
+    ]
+  },
+  "AndoainMod:TheBorn": {
+    "NAME": "Birth",
+    "DESCRIPTION": "Deal !D! damage to all enemies. While in andoainmod:light-unto-sufferers state, deal additional damage equal to twice the damage taken while in andoainmod:light-unto-sufferers this combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to all enemies. While in andoainmod:light-unto-sufferers state, deal additional damage equal to twice the damage taken while in andoainmod:light-unto-sufferers this combat.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Additional damage: %d)"
+    ]
+  },
+  "AndoainMod:NiceCake": {
+    "NAME": "Thousand-Stack Cake",
+    "DESCRIPTION": " andoainmod:light-unto-sufferers healing amount and damage immunity chance both increased to 70%. NL At turn start, lose 2 Dexterity .",
+    "UPGRADE_DESCRIPTION": " andoainmod:light-unto-sufferers healing amount and damage immunity chance both increased to 70%. NL At turn start, lose 2 Dexterity ."
+  },
+  "AndoainMod:TheWorld": {
+    "NAME": "All Living Beings",
+    "DESCRIPTION": " Ethereal . NL When you gain andoainmod:light-unto-sufferers , andoainmod:ammunition , or andoainmod:dream , draw 1 card.",
+    "UPGRADE_DESCRIPTION": "When you gain andoainmod:light-unto-sufferers , andoainmod:ammunition , or andoainmod:dream , draw 1 card."
+  },
+  "AndoainMod:TheEnd": {
+    "NAME": "All to Dust",
+    "DESCRIPTION": " Exhaust . NL Execute the first X items: NL Clear all negative debuffs; increase andoainmod:ammunition limit by 2 and refill ammunition; deal !D! damage X-2 times.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Execute the first X items: NL Clear all negative debuffs; increase andoainmod:ammunition limit by 2 and refill ammunition; deal !D! damage X-2 times."
+  },
+  "AndoainMod:adlm1": {
+    "NAME": "First Meeting",
+    "DESCRIPTION": " Exhaust . NL Add 1 card *Understanding to draw pile. NL If andoainmod:gaze : Gain [E] [E] and draw 2 cards. Otherwise, shuffle *Lemuen's Gaze into hand.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Add 1 card *Understanding to draw pile. NL If andoainmod:gaze : Gain [E] [E] and draw 2 cards. Otherwise, shuffle *Lemuen's Gaze into hand."
+  },
+  "AndoainMod:adlm2": {
+    "NAME": "Understanding",
+    "DESCRIPTION": " Exhaust . NL Add 1 card *Reunion to top of draw pile. NL If andoainmod:gaze : Gain 1 stack of andoainmod:light-unto-sufferers and apply 3 Vulnerable to all enemies. Otherwise, shuffle *Lemuen's Gaze into hand.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Add 1 card *Reunion to top of draw pile. NL If andoainmod:gaze : Gain 1 stack of andoainmod:light-unto-sufferers and apply 3 Vulnerable to all enemies. Otherwise, shuffle *Lemuen's Gaze into hand."
+  },
+  "AndoainMod:adlm3": {
+    "NAME": "Reunion",
+    "DESCRIPTION": " Exhaust . NL Add 1 card *Farewell to top of draw pile. NL If andoainmod:gaze : Shuffle 1 cost-0 *Pathfinders and 1 cost-0 *Find Path into hand. Otherwise, shuffle *Lemuen's Gaze into hand.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Add 1 card *Farewell to top of draw pile. NL If andoainmod:gaze : Shuffle 1 cost-0 *Pathfinders and 1 cost-0 *Find Path into hand. Otherwise, shuffle *Lemuen's Gaze into hand."
+  },
+  "AndoainMod:adlm4": {
+    "NAME": "Farewell",
+    "DESCRIPTION": " Exhaust . NL Exhaust all *Lemuen's Gaze in hand, draw pile, and discard pile. Deal 70 damage for each card.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Exhaust all *Lemuen's Gaze in hand, draw pile, and discard pile. Deal 80 damage for each card."
+  },
+  "AndoainMod:GuidingAhead": {
+    "NAME": "Guiding Ahead",
+    "DESCRIPTION": "At turn start, gain 1 card *Pathfinders . When you play a andoainmod:pathfinder card while in andoainmod:light-unto-sufferers state, gain [E] .",
+    "UPGRADE_DESCRIPTION": "At turn start, gain 1 card *Pathfinders+ . When you play a andoainmod:pathfinder card while in andoainmod:light-unto-sufferers state, gain [E] ."
+  },
+  "AndoainMod:Confess": {
+    "NAME": "Confession",
+    "DESCRIPTION": " Exhaust . NL Deal !D! damage to all enemies. When andoainmod:execute enemy, gain a small chance to receive a random Andoain-exclusive relic at combat end.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Deal !D! damage to all enemies. When andoainmod:execute enemy, gain a *certain chance to receive a random Andoain-exclusive relic at combat end."
+  }
+
+}
+
+
+
+
+

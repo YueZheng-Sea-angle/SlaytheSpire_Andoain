@@ -1,0 +1,64 @@
+{
+  "AndoainMod:BottleLight": {
+    "NAME": "Bottled Light",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " stacks of andoainmod:light-unto-sufferers .",
+      "andoainmod:light-unto-sufferers",
+      " At start of next turn, #y30% chance to gain 1 Metallicize. Upon taking damage, heal #b50% of the damage."
+    ]
+  },
+  "AndoainMod:BottleDream": {
+    "NAME": "Bottled Dream",
+    "DESCRIPTIONS": [
+      "Enter andoainmod:dream state. If already in andoainmod:dream, leave andoainmod:dream state.",
+      "andoainmod:dream",
+      " Upon entering, gain #b30 Block. In this state, you cannot play #yAttack cards. Automatically leave this state at the end of turn."
+    ]
+  },
+  "AndoainMod:BottleAmmi": {
+    "NAME": "Ammunition Potion",
+    "DESCRIPTIONS": [
+      "Gain #b"," ammunition.",
+      "andoainmod:ammunition",
+      " Has a limit. Some cards consume ammunition for enhanced effects; some cards restore ammunition and ammunition limit."
+    ]
+  },"AndoainMod:IceCreamCoffee":
+  {
+    "NAME": "Ice Cream Coffee",
+    "DESCRIPTIONS": [
+      "Choose 1 card from 3 andoainmod:ice-cream-machine summoning cards and add it to hand #b",
+      " times. This card costs #b0 this turn and is exhausted after use.",
+      "Please choose"
+    ]
+  },"AndoainMod:HotMilk":
+{
+  "NAME": "Hot Milk",
+  "DESCRIPTIONS": [
+    "Add #b",
+    " *Prayer+ to hand"
+  ]
+},"AndoainMod:MostimaPotion": {
+  "NAME": "Home-Brewed Beer",
+  "DESCRIPTIONS": [
+    "Gain #b"," *Mostima's Support+ to your hand. This card costs #b0 this turn."
+  ]
+},"AndoainMod:AndoainPotion": {
+  "NAME": "Filtered Still Water",
+  "DESCRIPTIONS": [
+    "Remove all negative effects from yourself, then generate random exclusive potions in all empty potion slots."
+  ]
+},
+  "AndoainMod:FiammettaPotion": {
+    "NAME": "Ginger Soda",
+    "DESCRIPTIONS": [
+      "Gain #b"," *Fiammetta's Vengeance+ to your hand. This card costs #b0 this turn."
+    ]
+  },
+  "AndoainMod:LemuenPotion": {
+    "NAME": "Rosé Wine",
+    "DESCRIPTIONS": [
+      "Gain #b"," *Lemuen's Gaze+ to your hand. This card costs #b0 this turn."
+    ]
+  }
+}

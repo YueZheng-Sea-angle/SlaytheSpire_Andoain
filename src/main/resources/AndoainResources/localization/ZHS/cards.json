@@ -1,0 +1,437 @@
+{
+  "AndoainMod:Strike": {
+    "NAME": "标准弹射打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 andoainmod:可弹射 。"
+  },
+  "AndoainMod:Defend": {
+    "NAME": "标准防御术式",
+    "DESCRIPTION": "获得 !B! 点格挡。"
+  },"AndoainMod:IrisBlue": {
+  "NAME": "紫罗兰",
+  "DESCRIPTION": "获得 !B! 点格挡。 NL 召唤 [#66CCFF]友方[]  andoainmod:冰淇淋机 。 NL 抽 !M! 张牌。 NL 消耗 。",
+  "UPGRADE_DESCRIPTION": "获得 !B! 点格挡。 NL 召唤 [#66CCFF]友方[]  andoainmod:冰淇淋机 。 NL 抽 !M! 张牌。 NL 消耗 。"
+},
+  "AndoainMod:Lemuen": {
+    "NAME": "蕾缪安的注视",
+    "DESCRIPTION": "对一名敌人造成 !D! 点无视格挡的伤害，然后添加1层 易伤 。 保留 。"
+  },
+  "AndoainMod:Lemuen_E": {
+    "NAME": "蕾缪安的注视",
+    "DESCRIPTION": " 消耗 。 虚无 。 NL 对一名敌人造成 !D! 点无视格挡的伤害，然后添加1层 易伤 。"
+  },
+  "AndoainMod:Obsessed": {
+    "NAME": "地宫所见",
+    "DESCRIPTION": "每回合开始时，获得 [E] 、1力量、1敏捷、1金币，将1张疑虑、1张伤口洗入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "每回合开始时，获得 [E] 、1力量、1敏捷、1金币，将1张疑虑、1张伤口洗入 *弃牌堆 。"
+  },"AndoainMod:RequiemChurch": {
+  "NAME": "安魂教堂",
+  "DESCRIPTION": "每回合开始时，每有1 andoainmod:弹药 ，获得 !M! 点格挡。",
+  "UPGRADE_DESCRIPTION": "每回合开始时，每有1 andoainmod:弹药 ，获得 !M! 点格挡。"
+},
+  "AndoainMod:Eulogy": {
+    "NAME": "悼词",
+    "DESCRIPTION": "造成 !D! 点伤害，给敌人添加 !M! 层 易伤 。 andoainmod:可弹射 。 NL 抽1张牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害，给敌人添加 !M! 层 易伤 。 andoainmod:可弹射 。 NL 抽2张牌。"
+  },
+  "AndoainMod:WayOfSuffering": {
+    "NAME": "苦路",
+    "DESCRIPTION": " 消耗 。获得 !M! 层 andoainmod:光赐于苦 。抽到这张牌时，将这张牌的复制加入手牌。 NL 抽2张牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 。获得 !M! 层 andoainmod:光赐于苦 。抽到这张牌时，将这张牌的复制加入手牌。 NL 抽2张牌。"
+  },
+  "AndoainMod:AmmoDepot": {
+  "NAME": "“律外”弹药配给组",
+  "DESCRIPTION": "获得等于你 andoainmod:弹药 上限值的弹药，每点溢出值使你获得3点格挡并抽1张牌。 消耗 。",
+  "UPGRADE_DESCRIPTION": "获得等于你 andoainmod:弹药 上限值的弹药，每点溢出值使你获得3点格挡并抽1张牌。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (获得 !B! 点格挡)。"
+    ]
+},"AndoainMod:Prayer": {
+  "NAME": "祷告",
+  "DESCRIPTION": " 消耗 手牌中所有状态牌和诅咒牌，获得 !B! 点格挡。 NL 随机获得 !M! 项：1能量/1 andoainmod:弹药 /抽1张牌。",
+  "UPGRADE_DESCRIPTION": " 消耗 手牌中所有状态牌和诅咒牌，获得 !B! 点格挡。 NL 随机获得 !M! 项：1能量/1 andoainmod:弹药 /抽1张牌。"
+},"AndoainMod:Reload": {
+  "NAME": "装弹",
+  "DESCRIPTION": "获得1 andoainmod:弹药 。然后抽等于你弹药数张牌。 消耗 。",
+  "UPGRADE_DESCRIPTION": "获得2 andoainmod:弹药 。然后抽等于你弹药数张牌。 消耗 。"
+},"AndoainMod:RecursiveSolution": {
+  "NAME": "递归解",
+  "DESCRIPTION": "获得剩余 andoainmod:弹药 4倍的格挡，补满弹药。这张牌的倍数减少1并洗回抽牌堆。",
+  "UPGRADE_DESCRIPTION": "获得剩余 andoainmod:弹药 6倍的格挡，补满弹药。这张牌的倍数减少1并洗回抽牌堆。",
+  "EXTENDED_DESCRIPTION": [
+    " NL (当前倍数: %d)"
+  ]
+},"AndoainMod:TrialAndError": {
+  "NAME": "试错解",
+  "DESCRIPTION": "获得剩余 andoainmod:弹药 1倍的力量，弹药上限-1，这张牌的倍数增加1并洗回抽牌堆。",
+  "UPGRADE_DESCRIPTION": "获得剩余 andoainmod:弹药 1倍的力量，弹药上限-1，这张牌的倍数增加1并洗回抽牌堆。",
+  "EXTENDED_DESCRIPTION": [
+    " NL (当前倍数: %d)"
+  ]
+},"AndoainMod:Cherish": {
+  "NAME": "我仍留恋",
+  "DESCRIPTION": "回合开始时，清空随机一名敌方单位的格挡并为其添加1层 andoainmod:缓慢 ，将一张 灼伤 洗入弃牌堆。",
+  "UPGRADE_DESCRIPTION": "回合开始时，清空 *所有 敌方单位的格挡并为其添加1层 andoainmod:缓慢 ，将一张升级后的 灼伤 洗入弃牌堆。"
+},"AndoainMod:FindPath": {
+  "NAME": "寻路",
+  "DESCRIPTION": " 消耗 。 NL 选择下列一条 andoainmod:路 。 NL *迷思 NL *执着 NL *泅渡 ",
+  "UPGRADE_DESCRIPTION": " 保留 。 消耗 。 NL 选择下列一条 *路 。 NL *迷思 NL *执着 NL *泅渡 "
+},"AndoainMod:Myth": {
+  "NAME": "迷思",
+  "DESCRIPTION": "获得1层 虚弱 ，将1张 疑虑 洗入手牌，然后使所有敌方角色获得1层 andoainmod:晕眩 。获得2层 andoainmod:梦境 。",
+  "UPGRADE_DESCRIPTION": "获得1层 虚弱 ，将1张 疑虑 洗入手牌，然后使所有敌方角色获得1层 andoainmod:晕眩 。获得2层 andoainmod:梦境 。"
+},"AndoainMod:Obsession": {
+  "NAME": "执着",
+  "DESCRIPTION": "获得1 力量 ，1层 人工制品 ，治疗5点生命，在每回合结束时选择 保留 1张手牌",
+  "UPGRADE_DESCRIPTION": "获得1 力量 ，1层 人工制品 ，治疗5点生命，在每回合结束时选择 保留 1张手牌"
+},  "AndoainMod:Crossing": {
+    "NAME": "泅渡",
+    "DESCRIPTION": "将一张升级后的 *寻路+ 添加到手牌中，再将一张 andoainmod:寻路 洗入抽牌堆。获得1层 andoainmod:光赐于苦 。本回合无法再打出 andoainmod:寻路 。",
+    "UPGRADE_DESCRIPTION": "将一张升级后的 *寻路+ 添加到手牌中，再将一张 *寻路 洗入抽牌堆。获得1层 andoainmod:光赐于苦 。本回合无法再打出 andoainmod:寻路 。"
+  },
+  "AndoainMod:Iris": {
+    "NAME": "鸢尾花",
+    "DESCRIPTION": "获得 !B! 点格挡，召唤 [#FF0000]敌方[]  andoainmod:冰淇淋机 。 NL 若冰淇淋机已存在，抽3张牌。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 获得 !B! 点格挡，召唤 [#FF0000]敌方[]  andoainmod:冰淇淋机 。 NL 若冰淇淋机已存在，抽3张牌。"
+  },"AndoainMod:ShadowAndAsh": {
+  "NAME": "影与灰",
+  "DESCRIPTION": " 虚无 。只有在 andoainmod:光赐于苦 状态才能打出。弹药和其上限减至0。 NL 每回合开始时， 消耗 手牌、抽牌堆、弃牌堆所有 *状态牌 和 *诅咒牌 ，每张获得1力量、1敏捷、恢复1点生命（上限10）。",
+  "UPGRADE_DESCRIPTION": " 保留 。只有在 andoainmod:光赐于苦 状态才能打出。弹药和其上限减至0。 NL 每回合开始时， 消耗 手牌、抽牌堆、弃牌堆所有 *状态牌 和 *诅咒牌 ，每张获得1力量、1敏捷、恢复1点生命（上限10）。",
+  "EXTENDED_DESCRIPTION":["只有在光赐于苦状态下时，才能打出。"]
+
+
+},"AndoainMod:SeeWealthIntent": {
+  "NAME": "见财起意",
+  "DESCRIPTION": "你在本场战斗胜利时额外获得30金币（不叠加）。",
+  "UPGRADE_DESCRIPTION": "你在本场战斗胜利时额外获得30金币（不叠加）。"
+},"AndoainMod:Hyacinth": {
+  "NAME": "风信子",
+  "DESCRIPTION": "召唤 [#FF0000]敌方[]  andoainmod:冰淇淋机 。 NL 击晕其2回合。",
+  "UPGRADE_DESCRIPTION": "召唤 [#FF0000]敌方[]  andoainmod:冰淇淋机 。 NL 击晕其2回合。"
+},"AndoainMod:BackupGun": {
+  "NAME": "备用铳",
+  "DESCRIPTION": "补充1弹药，然后造成 !D! 点伤害。 andoainmod:可弹射 。",
+  "UPGRADE_DESCRIPTION": "补充1弹药，然后造成 !D! 点伤害。 andoainmod:可弹射 。"
+},
+  "AndoainMod:Overflowing": {
+    "NAME": "倾泻",
+    "DESCRIPTION": "消耗所有弹药。每发弹药对随机敌方目标造成 !D! 点伤害，均 andoainmod:弹射 。你在 !M! 回合内无法获得弹药。 NL  andoainmod:误差 。",
+    "UPGRADE_DESCRIPTION": "消耗所有弹药。每发弹药对随机敌方目标造成 !D! 点伤害，均 andoainmod:弹射 。你在 !M! 回合内无法获得弹药。 NL  andoainmod:误差 。"
+
+},"AndoainMod:Dazzle": {
+  "NAME": "炫目",
+  "DESCRIPTION": " 消耗 。造成 !D! 点伤害，获得 !M! 层 andoainmod:光赐于苦 ，给予1层 虚弱 。 andoainmod:可弹射 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。造成 !D! 点伤害，获得 !M! 层 andoainmod:光赐于苦 ，给予1层 虚弱 。 andoainmod:可弹射 。"
+},"AndoainMod:TheLaw": {
+  "NAME": "圣秩",
+  "DESCRIPTION": "造成 !D! 点伤害，目标失去 !M! 力量，获得 !B! 点格挡。 andoainmod:可弹射 。",
+  "UPGRADE_DESCRIPTION": "造成 !D! 点伤害，目标失去 !M! 力量，获得 !B! 点格挡。 andoainmod:可弹射 。"
+},"AndoainMod:Mostima": {
+  "NAME": "莫斯提马的支援",
+  "DESCRIPTION": " 消耗 。 andoainmod:晕眩 所有敌方角色1回合，为所有敌方角色添加 !M! 层 andoainmod:缓慢 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 固有 。 NL  andoainmod:晕眩 所有敌方角色1回合，为所有敌方角色添加 !M! 层 andoainmod:缓慢 。"
+},"AndoainMod:Mostima_E": {
+  "NAME": "莫斯提马的支援",
+  "DESCRIPTION": " 消耗 。 虚无 。 NL  andoainmod:晕眩 所有敌方角色1回合，为所有敌方角色添加 !M! 层 andoainmod:缓慢 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 虚无 。 NL  andoainmod:晕眩 所有敌方角色1回合，为所有敌方角色添加 !M! 层 andoainmod:缓慢 。"
+},"AndoainMod:Fiammetta": {
+  "NAME": "菲亚梅塔的报复",
+  "DESCRIPTION": " 消耗 。对除你外所有单位造成 !D! 点伤害。 NL 手牌中加入一张 *你须偿还 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。对除你外所有单位造成 !D! 点伤害。 NL 手牌中加入一张 *你须偿还 。"
+},"AndoainMod:Fiammetta_E": {
+  "NAME": "菲亚梅塔的报复",
+  "DESCRIPTION": " 消耗 。 虚无 。 NL 对除你外所有单位造成 !D! 点伤害。 NL 手牌中加入一张 *你须偿还 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 虚无 。 NL 对除你外所有单位造成 !D! 点伤害。 NL 手牌中加入一张 *你须偿还 。"
+},"AndoainMod:MyLateran": {
+  "NAME": "我的拉特兰",
+  "DESCRIPTION": " 消耗 。 NL 获得 !M! 层 andoainmod:光赐于苦 ，使所有敌人的 易伤 和 andoainmod:缓慢 层数变为三倍。 NL 若手牌中有 状态牌 ，将其 消耗 并获得 [E] 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 NL 获得 !M! 层 andoainmod:光赐于苦 ，使所有敌人的 易伤 和 andoainmod:缓慢 层数变为三倍。 NL 若手牌中有 状态牌 ，将其 消耗 并获得 [E] 。"
+},"AndoainMod:MyLateran_E": {
+  "NAME": "我的拉特兰",
+  "DESCRIPTION": " 消耗 。 虚无 。 NL 获得 !M! 层 andoainmod:光赐于苦 ，使所有敌人的 易伤 和 andoainmod:缓慢 层数变为三倍。 NL 若手牌中有 状态牌 ，将其 消耗 并获得 [E] 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 虚无 。 NL 获得 !M! 层 andoainmod:光赐于苦 ，使所有敌人的 易伤 和 andoainmod:缓慢 层数变为三倍。 NL 若手牌中有 状态牌 ，将其 消耗 并获得 [E] 。"
+},
+  "AndoainMod:OnceLivedForever": {
+    "NAME": "曾有永远",
+    "DESCRIPTION": "获得1层 andoainmod:光赐于苦 。每回合开始时，随机获得一张费用为0，且带有 虚无 、 消耗 的 andoainmod:小队牌 。 NL 抽到的牌在三回合内不会重复获得。",
+    "UPGRADE_DESCRIPTION": "获得1层 andoainmod:光赐于苦 。每回合开始时， [#66CCFF]选择[] 获得一张费用为0，且带有 虚无 、 消耗 的 andoainmod:小队牌 。 NL 选择的牌在三回合内不可重复选择。"
+  },
+  "AndoainMod:YouMustRepay": {
+    "NAME": "你须偿还",
+    "DESCRIPTION": "回合结束时，失去4生命。",
+    "UPGRADE_DESCRIPTION": "回合结束时，失去4生命。"
+  },
+  "AndoainMod:Echo": {
+    "NAME": "交托生死的共感",
+    "DESCRIPTION": "你和 andoainmod:冰淇淋机 因非本能力而获得格挡、恢复生命、受到攻击伤害时，对另一方施加同样效果。",
+    "UPGRADE_DESCRIPTION": "你和 andoainmod:冰淇淋机 因非本能力而获得格挡、恢复生命、受到攻击伤害时，对另一方施加同样效果。"
+  },
+  "AndoainMod:CandyTime": {
+    "NAME": "无糖制冷",
+    "DESCRIPTION": "立即改变 andoainmod:冰淇淋机 的阵营。",
+    "UPGRADE_DESCRIPTION": "立即改变 andoainmod:冰淇淋机 的阵营。在此之前，先获得1层 人工制品 。"
+  },
+  "AndoainMod:CandyTime_E": {
+    "NAME": "无糖制冷",
+    "DESCRIPTION": " 消耗 。 NL 立即改变 andoainmod:冰淇淋机 的阵营。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 立即改变 andoainmod:冰淇淋机 的阵营。在此之前，先获得1层 人工制品 。"
+  },
+  "AndoainMod:AutoRefrigeration": {
+    "NAME": "全自动制冷",
+    "DESCRIPTION": " 虚无 。 NL [#66CCFF]友方[] andoainmod:冰淇淋机 被击破时，不再对玩家产生任何减益。 NL 每隔1个回合，获得一张费用为0且 消耗 的 *无糖制冷 。",
+    "UPGRADE_DESCRIPTION": " NL  [#66CCFF]友方[] andoainmod:冰淇淋机 被击破时，不再对玩家产生任何减益。 NL 每隔1个回合，获得一张费用为0且 消耗 的 *无糖制冷 。"
+  },
+  "AndoainMod:Worship": {
+    "NAME": "礼拜",
+    "DESCRIPTION": " 保留 ， 消耗 。造成 andoainmod:周序 4倍的伤害，获得周序4倍的格挡。礼拜三、六、日分别额外获得1 andoainmod:弹药 / [E] /1层 andoainmod:光赐于苦 。这张牌被保留或消耗时，推进周序一天。"
+  },
+  "AndoainMod:BattlefieldFlank": {
+    "NAME": "战场侧面",
+    "DESCRIPTION": "先给予 !M! 层易伤，再造成 !D! 点伤害。 andoainmod:可弹射 。 NL 你获得1层易伤。",
+    "UPGRADE_DESCRIPTION": "先给予 !M! 层易伤，再造成 !D! 点伤害。 andoainmod:可弹射 。 NL 你获得1层易伤。"
+  },
+  "AndoainMod:BigBabyBottle": {
+    "NAME": "大号奶瓶",
+    "DESCRIPTION": " 消耗 。 andoainmod:梦境 4。 NL 造成 !D! 点伤害，若目标非领袖， andoainmod:晕眩 目标1回合。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 andoainmod:梦境 4。 NL 造成 !D! 点伤害，若目标非领袖， andoainmod:晕眩 目标1回合。"
+  },"AndoainMod:TheTime": {
+  "NAME": "时与光",
+  "DESCRIPTION": "造成 !D! 点伤害并获得3层 andoainmod:梦境 。对精英和领袖敌人额外给予1层 虚弱 。 andoainmod:可弹射 。",
+  "UPGRADE_DESCRIPTION": "造成 !D! 点伤害并获得3层 andoainmod:梦境 。对精英和领袖敌人额外给予 *2 层 虚弱 。 andoainmod:可弹射 。"
+},
+  "AndoainMod:UnInvited": {
+    "NAME": "不请自来",
+    "DESCRIPTION": " 消耗 。获得 andoainmod:梦境 !M! 。 NL 你打出的下一张牌不消耗 [E] ，且将被 消耗 。 NL 若这张牌是 andoainmod:小队牌 ，其无视 andoainmod:迷梦 禁用限制。",
+    "UPGRADE_DESCRIPTION": " 消耗 。获得 andoainmod:梦境 !M! 。 NL 你打出的下一张牌不消耗 [E] ，且将被 消耗 。 NL 若这张牌是 andoainmod:小队牌 ，其无视 andoainmod:迷梦 禁用限制。"
+  },
+
+  "AndoainMod:SeekingTruth": {
+    "NAME": "求道",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次， andoainmod:可弹射 ，只消耗1弹药。 NL 一场战斗中，每使用一次，所有求道的伤害值-1。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 !M! 次， andoainmod:可弹射 ，只消耗1弹药。 NL 一场战斗中，每使用一次，所有求道的伤害值-1。"
+  },"AndoainMod:Protection": {
+  "NAME": "加护",
+  "DESCRIPTION": "获得 !B! 点格挡。 NL [#66CCFF]友方[] andoainmod:冰淇淋机 获得 !M! 层 无实体 。",
+  "UPGRADE_DESCRIPTION": "获得 !B! 点格挡。 NL [#66CCFF]友方[] andoainmod:冰淇淋机 获得 !M! 层 无实体 。"
+}
+,"AndoainMod:Adaptation": {
+  "NAME": "应变",
+  "DESCRIPTION": "每有1个单位的意图是攻击，获得 !B! 点格挡。 NL 若有单位的意图不是攻击，获得 [E] 和 !M! 层 andoainmod:光赐于苦 。"
+},
+  "AndoainMod:MonasticIcon": {
+    "NAME": "奇异恩典",
+    "DESCRIPTION": " andoainmod:梦境 3。造成 !D! 点伤害，将你手牌中所有攻击牌的费用随机交换。 andoainmod:可弹射 。",
+    "UPGRADE_DESCRIPTION": " andoainmod:梦境 3。造成 !D! 点伤害，将你手牌中所有攻击牌的费用-1后随机交换。 andoainmod:可弹射 。"
+  },"AndoainMod:OriginiumShield": {
+  "NAME": "源石护身",
+  "DESCRIPTION": " 消耗 。 NL 获得 !M! 层 andoainmod:光赐于苦 和 !B! 点格挡。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 NL 获得 !M! 层 andoainmod:光赐于苦 和 !B! 点格挡。"
+},"AndoainMod:CactusTart": {
+  "NAME": "仙人掌挞",
+  "DESCRIPTION": "回合开始时，若 andoainmod:冰淇淋机 阵营为 [#FF0000]敌方[] ，你获得 荆棘 2。",
+  "UPGRADE_DESCRIPTION": "回合开始时，若 andoainmod:冰淇淋机 阵营为 [#FF0000]敌方[] ，你获得 荆棘 2。"
+},"AndoainMod:TidalMemory": {
+  "NAME": "潮石回声",
+  "DESCRIPTION": " 消耗 。 NL 获得3层 andoainmod:梦境 。 NL 获得4点 力量 和4点 敏捷。 NL 将4张 疑虑 洗入你的弃牌堆。 NL 结束你的回合。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 NL 获得3层 andoainmod:梦境 。 NL 获得4点 力量 和4点 敏捷。 NL 将4张 疑虑 洗入你的弃牌堆。 NL 结束你的回合。"
+},"AndoainMod:Communion": {
+  "NAME": "共融",
+  "DESCRIPTION": " 消耗 。 NL 获得 !M! 层 andoainmod:梦境 。 NL 给予99层 虚弱 ，自身获得99层 虚弱 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。 NL 获得 !M! 层 andoainmod:梦境 。 NL 给予99层 虚弱 ，自身获得 *1 层 虚弱 。"
+},"AndoainMod:DessertTime": {
+  "NAME": "甜品时间",
+  "DESCRIPTION": " 消耗 。 NL 治疗4生命。 NL 治疗 [#66CCFF]友方[] andoainmod:冰淇淋机 10。 ",
+  "UPGRADE_DESCRIPTION": " 消耗 。 NL 治疗 *5 生命。 NL 治疗 [#66CCFF]友方[] andoainmod:冰淇淋机 [#66CCFF]13[] 。 "
+},
+  "AndoainMod:Funeral": {
+    "NAME": "葬礼",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若未 andoainmod:斩杀 ，将1张 疑虑 洗入弃牌堆。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 若未 andoainmod:斩杀 ，将1张 疑虑 洗入弃牌堆。"
+},"AndoainMod:Enlightenment": {
+  "NAME": "解惑",
+  "DESCRIPTION": "造成 !D! 点伤害。 NL 清除目标的 力量 加成。 NL 清除自身的所有异常状态1层。 NL andoainmod:可弹射 。",
+  "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 清除目标的 力量 加成。 NL *清空 自身的所有异常状态。 NL andoainmod:可弹射 。"
+},"AndoainMod:Liberation": {
+  "NAME": "永无解脱",
+  "DESCRIPTION": " andoainmod:限用 3。 NL 无限升级 。造成 !D! 点伤害，打出后进入抽牌堆。 NL 在 andoainmod:斩杀 敌人时，将这张牌升级。"
+},"AndoainMod:DivineDesire": {
+  "NAME": "神圣的渴求",
+  "DESCRIPTION": "补充1 andoainmod:弹药 ，造成 !D! 点伤害。 NL 若击破 andoainmod:冰淇淋机 ，获得 [E] [E] [E] 并额外抽2张牌。"
+},"AndoainMod:SummitOfNations": {
+  "NAME": "万国峰会",
+  "DESCRIPTION": "每回合开始时，随机获得一张其他颜色的普通或罕见牌，这张牌本回合费用为0。",
+  "UPGRADE_DESCRIPTION": "每回合开始时，随机获得一张其他颜色的 *罕见 或 *稀有 牌，这张牌本回合费用为0。"
+},
+  "AndoainMod:Dream":{
+  "NAME": "幻梦",
+  "DESCRIPTION": " 消耗 。立刻进入 andoainmod:迷梦 。所有敌人获得一层 虚弱 。",
+  "UPGRADE_DESCRIPTION": " 消耗 。立刻进入 andoainmod:迷梦 。所有敌人获得一层 虚弱 。"},
+  "AndoainMod:Sleep":{
+    "NAME": "安宁，如泡沫",
+    "DESCRIPTION": " 保留 ， 消耗 。获得7点格挡，1层 andoainmod:光赐于苦 。 保留 所有手牌，结束你的回合。",
+    "UPGRADE_DESCRIPTION": " 保留 ，获得7点格挡，1层 andoainmod:光赐于苦 。 保留 所有手牌，结束你的回合。"},
+  "AndoainMod:Patia":{
+  "NAME": "帕蒂亚的关照",
+  "DESCRIPTION": " 消耗 。消耗手牌中所有状态牌，然后将下列数量补至1： NL  [E] ， andoainmod:光赐于苦 , andoainmod:弹药 ， 手牌数， 药水数。",
+  "UPGRADE_DESCRIPTION": " 保留 。 消耗 。消耗手牌中所有状态牌，然后将下列数量补至1： NL  [E] ， andoainmod:光赐于苦 , andoainmod:弹药 ， 手牌数， 药水数。"},
+  "AndoainMod:ThriftyHabits":{
+    "NAME": "节约风气",
+    "DESCRIPTION": " andoainmod:弹药 数减少时，有50%几率返还1点弹药。 NL 未成功触发弹射时，必定返还消耗的弹药。",
+    "UPGRADE_DESCRIPTION": " andoainmod:弹药 数减少时，有50%几率返还1点弹药。 NL 未成功触发弹射时，必定返还消耗的弹药。"},
+  "AndoainMod:FallenHeaven":{
+    "NAME": "堕天",
+    "DESCRIPTION": "每回合开始时，获得 [E] 和1层 andoainmod:梦境 。你无法再获得 andoainmod:弹药 。",
+    "UPGRADE_DESCRIPTION": "每回合开始时，获得 [E] 和1层 andoainmod:梦境 。你无法再获得 andoainmod:弹药 。"},
+
+  "AndoainMod:IceCreamBlack": {
+    "NAME": "巧克力冰淇淋",
+    "DESCRIPTION": "回合开始时，若存在 [#66CCFF]友方[]  andoainmod:冰淇淋机 ，则对所有敌方单位造成1层 andoainmod:凋亡损伤 。",
+    "UPGRADE_DESCRIPTION": "回合开始时，若存在 [#66CCFF]友方[]  andoainmod:冰淇淋机 ，则对所有敌方单位造成1层 andoainmod:凋亡损伤 。"
+  },"AndoainMod:IceCreamWhite": {
+  "NAME": "香草冰淇淋",
+  "DESCRIPTION": "接下来的 !M! 个回合开始时，若存在 [#66CCFF]友方[]  andoainmod:冰淇淋机 ，则令其失去6点生命（至少保留1点）并治疗你4点生命。",
+  "UPGRADE_DESCRIPTION": "接下来的 !M! 个回合开始时，若存在 [#66CCFF]友方[]  andoainmod:冰淇淋机 ，则令其失去6点生命（至少保留1点）并治疗你4点生命。"
+},"AndoainMod:IceCreamPurple": {
+  "NAME": "香芋冰淇淋",
+  "DESCRIPTION": "回合开始时，根据 andoainmod:冰淇淋机 阵营获得效果。 [#66CCFF]友方[] ：获得 [E] 。 [#FF0000]敌方[] ：获得1层 andoainmod:光赐于苦 和2层 andoainmod:梦境 。",
+  "UPGRADE_DESCRIPTION": " 固有 。回合开始时，根据 andoainmod:冰淇淋机 阵营获得效果。 [#66CCFF]友方[] ：获得 [E] 。 [#FF0000]敌方[] ：获得1层 andoainmod:光赐于苦 和2层 andoainmod:梦境 。"
+},"AndoainMod:WhatISee": {
+  "NAME": "我见",
+  "DESCRIPTION": " 预见 3。 每有一层 andoainmod:光赐于苦 ，额外预见 !M! 。若牌堆顶的牌是攻击牌，将其打出并 消耗 。"
+},"AndoainMod:DarknessBeneathTheLight": {
+  "NAME": "灯下黑",
+  "DESCRIPTION": "你手牌中的所有技能牌和攻击牌在本回合耗能为0，这些牌将在本场战斗中被视为状态牌。你本回合至多再打出X-1张牌。",
+  "UPGRADE_DESCRIPTION": "你手牌中的所有技能牌和攻击牌在本回合耗能为0，这些牌将在本场战斗中被视为状态牌。你本回合至多再打出 *X 张牌。"
+},"AndoainMod:NurserySanctum": {
+  "NAME": "育婴圣堂",
+  "DESCRIPTION": "获得2层 人工制品 。每回合开始时，获得3层 andoainmod:梦境 ，对所有单位施加 andoainmod:效果池 中的随机正面或负面效果。",
+  "UPGRADE_DESCRIPTION": "获得2层 人工制品 。每回合开始时，获得3层 andoainmod:梦境 ，对所有单位施加 andoainmod:效果池+ 中的随机正面或负面效果。 NL 升级效果池的基础概率。"
+},"AndoainMod:RainNight": {
+  "NAME": "雨夜",
+  "DESCRIPTION": "将你的下列值或层数翻倍： [E] 、 andoainmod:弹药 、格挡、 andoainmod:光赐于苦 、虚弱、易伤、脆弱、 andoainmod:梦境 。 将2张 悔恨 置入手牌。"
+},"AndoainMod:Pathfinders": {
+  "NAME": "寻路者",
+  "DESCRIPTION": " 消耗 。从三张寻路者牌中选择一张加入手牌。",
+  "UPGRADE_DESCRIPTION": " 消耗 。从三张升级后的寻路者牌中选择一张加入手牌。"
+},
+  "AndoainMod:PathfindersDessertChef": {
+    "NAME": "寻路者甜品商",
+    "DESCRIPTION": " 保留 。 消耗 。造成 !D! 点伤害。这张牌被保留时，将1张 *寻路者甜品车 洗入手牌。",
+    "UPGRADE_DESCRIPTION": " 保留 。 消耗 。造成 !D! 点伤害。这张牌被保留时，将1张 *寻路者甜品车+ 洗入手牌。"
+  },
+  "AndoainMod:PathfindersDessertCart": {
+    "NAME": "寻路者糖果车",
+    "DESCRIPTION": " 保留 。 消耗 。对所有敌人造成1层 andoainmod:浊燃损伤 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 消耗 。对所有敌人造成1层 andoainmod:浊燃损伤 和 5 点伤害。"
+  },
+  "AndoainMod:PathfindersSorcerer": {
+    "NAME": "寻路者术师",
+    "DESCRIPTION": " 消耗 。对所有敌人造成 !D! 点伤害和 !M! 层浊燃损伤。",
+    "UPGRADE_DESCRIPTION": " 消耗 。对所有敌人造成 !D! 点伤害和 !M! 层浊燃损伤。"
+  },
+  "AndoainMod:PathfindersTearer": {
+    "NAME": "寻路者阵地撕裂者",
+    "DESCRIPTION": "消耗。对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": "消耗。对所有敌人造成 !D! 点伤害。"
+  },
+  "AndoainMod:Requiem": {
+    "NAME": "安魂曲",
+    "DESCRIPTION": "回合结束前，若手牌中有诅咒牌或状态牌，将其消耗，每张获得 !M! 格挡和1层 andoainmod:梦境 。因此卡进入 andoainmod:迷梦 时，不会在本回合结束时离开迷梦。",
+    "UPGRADE_DESCRIPTION": "回合结束前，若手牌中有诅咒牌或状态牌，将其消耗，每张获得 !M! 格挡和1层 andoainmod:梦境 。因此卡进入 andoainmod:迷梦 时，不会在本回合结束时离开迷梦。"
+  },
+  "AndoainMod:LTSong": {
+    "NAME": "颂歌",
+    "DESCRIPTION": "每回合开始时，获得一张 *祷告 。",
+    "UPGRADE_DESCRIPTION": "每回合开始时，获得一张 *祷告+ 。"
+  },
+  "AndoainMod:Firn": {
+    "NAME": "我愿向前",
+    "DESCRIPTION": " andoainmod:光赐于苦 现在的层数减少速度改为每2回合减少一层。",
+    "UPGRADE_DESCRIPTION": " andoainmod:光赐于苦 现在的层数减少速度改为每2回合减少一层。"
+  },
+  "AndoainMod:LightAndShadow": {
+    "NAME": "光与影",
+    "DESCRIPTION": " 消耗 。 虚无 。获得1层 无实体 、3层 andoainmod:光赐于苦 。将 *问题 洗入手牌，将 *答案 洗入抽牌堆。 NL 每个回合结束时，若没有光赐于苦，失去3最大生命。",
+    "UPGRADE_DESCRIPTION": " 消耗 。获得1层 无实体 、3层 andoainmod:光赐于苦 。将 *问题 洗入手牌，将 *答案 洗入抽牌堆。 NL 每个回合结束时，若没有光赐于苦，失去3最大生命。"
+  },
+  "AndoainMod:Question": {
+    "NAME": "问题",
+    "DESCRIPTION": "消耗 所有手牌，这些牌在消耗堆被视为 *疑虑 。",
+    "UPGRADE_DESCRIPTION": "消耗 所有手牌，这些牌在消耗堆被视为 *疑虑 。"
+  },
+  "AndoainMod:Answer": {"NAME": "答案",
+    "DESCRIPTION": "消耗所有 andoainmod:弹药 ，每发造成 *消耗堆 内 *状态牌 和 *诅咒牌 总数四倍的伤害。",
+    "UPGRADE_DESCRIPTION": "消耗所有 andoainmod:弹药 ，每发造成 *消耗堆 内 *状态牌 和 *诅咒牌 总数四倍的伤害。"
+  },
+  "AndoainMod:Angel": {
+    "NAME": "天使",
+    "DESCRIPTION": "回合开始时获得 andoainmod:梦境 2。 NL 你现在可以在 andoainmod:迷梦 状态下打出攻击牌。 NL 进入和离开迷梦时，获得 !M! 点力量 。",
+    "UPGRADE_DESCRIPTION": "回合开始时获得 andoainmod:梦境 2。 NL 你现在可以在 andoainmod:迷梦 状态下打出攻击牌。 NL 进入和离开迷梦时，获得 !M! 点力量 。"
+  },
+  "AndoainMod:DreamWake": {
+    "NAME": "梦醒",
+    "DESCRIPTION": "可以在 andoainmod:迷梦 状态下打出。造成 !D! 点伤害，在 andoainmod:迷梦 中额外造成本场战斗获得 andoainmod:梦境 总层数的伤害。",
+    "UPGRADE_DESCRIPTION": "可以在 andoainmod:迷梦 状态下打出。造成 !D! 点伤害，在 andoainmod:迷梦 中额外造成本场战斗获得 andoainmod:梦境 总层数的伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "（额外伤害: %d）"
+    ]
+  },
+  "AndoainMod:TheBorn": {
+    "NAME": "降生",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 在 andoainmod:光赐于苦 状态下，额外造成本场战斗中 andoainmod:光赐于苦 下受伤害量的两倍伤害。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 在 andoainmod:光赐于苦 状态下，额外造成本场战斗中 andoainmod:光赐于苦 下受伤害量的两倍伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "（额外伤害: %d）"
+    ]
+  },
+  "AndoainMod:NiceCake": {
+    "NAME": "千层蛋糕",
+    "DESCRIPTION": " andoainmod:光赐于苦 的治疗量和提供免伤的概率均提升至70%。 NL 每回合开始时，失去1点 敏捷 。",
+    "UPGRADE_DESCRIPTION": " andoainmod:光赐于苦 的治疗量和提供免伤的概率均提升至70%。 NL 每回合开始时，失去1点 敏捷 。"
+  },
+  "AndoainMod:TheWorld": {
+    "NAME": "众生行记",
+    "DESCRIPTION": " 虚无 。你获得 andoainmod:光赐于苦 、 andoainmod:弹药 或 andoainmod:梦境 时，抽一张牌。",
+    "UPGRADE_DESCRIPTION": "你获得 andoainmod:光赐于苦 、 andoainmod:弹药 或 andoainmod:梦境 时，抽一张牌。"
+  },
+  "AndoainMod:TheEnd": {
+    "NAME": "皆为尘土",
+    "DESCRIPTION": " 消耗 。 NL 执行下列前X项： NL 清空自身负面状态; andoainmod:弹药 上限+2并补满弹药;对所有敌人造成 !D! 点伤害X-2次。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 执行下列前X项： NL 清空自身负面状态; andoainmod:弹药 上限+2并补满弹药;对所有敌人造成 !D! 点伤害X-2次。"
+  },
+  "AndoainMod:adlm1": {
+    "NAME": "初遇",
+    "DESCRIPTION": " 消耗 。 NL 将一张 *相知 放入抽牌堆。 NL andoainmod:注视 ：获得 [E]  [E] 并抽2张牌，否则，将 *蕾缪安的注视 洗入手牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 将一张 *相知 放入抽牌堆。 NL andoainmod:注视 ：获得 [E]  [E] 并抽2张牌，否则，将 *蕾缪安的注视 洗入手牌。"
+  },
+  "AndoainMod:adlm2": {
+    "NAME": "相知",
+    "DESCRIPTION": " 消耗 。 NL 将一张 *重逢 放入牌堆顶。 NL andoainmod:注视 ：获得1层光赐于苦，并为所有敌人添加3层易伤；否则，将 *蕾缪安的注视 洗入手牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 将一张 *重逢 放入牌堆顶。 NL andoainmod:注视 ：获得1层光赐于苦，并为所有敌人添加3层易伤；否则，将 *蕾缪安的注视 洗入手牌。"
+  },
+  "AndoainMod:adlm3": {
+    "NAME": "重逢",
+    "DESCRIPTION": " 消耗 。 NL 将一张 *告别 放入牌堆顶。 NL andoainmod:注视 ：将费用为0的 *寻路者 和 *寻路 洗入手牌；否则，将 *蕾缪安的注视 洗入手牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 将一张 *告别 放入牌堆顶。 NL andoainmod:注视 ：将一张费用为0的 *寻路者 和一张费用为0的 *寻路 洗入手牌；否则，将 *蕾缪安的注视 洗入手牌。"
+  },
+  "AndoainMod:adlm4": {
+    "NAME": "告别",
+    "DESCRIPTION": " 消耗 。 NL 消耗手牌、抽牌堆、弃牌堆内所有的 *蕾缪安的注视 ，每张造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 消耗手牌、抽牌堆、弃牌堆内所有的 *蕾缪安的注视 ，每张造成 !D! 点伤害。"
+  },
+  "AndoainMod:GuidingAhead": {
+    "NAME": "吾导先路",
+    "DESCRIPTION": "每回合开始时， 获得一张 *寻路者 。 你在 andoainmod:光赐于苦 状态下打出 andoainmod:寻路者牌 时， 获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "每回合开始时， 获得一张 *寻路者+ 。 你在 andoainmod:光赐于苦 状态下打出 andoainmod:寻路者牌 时， 获得 [E] 。"
+  },
+  "AndoainMod:Confess": {
+    "NAME": "告解",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 andoainmod:斩杀 时，战斗胜利后小概率获得随机的安多恩专属遗物。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 andoainmod:斩杀 时，战斗胜利后 *一定 概率获得随机的安多恩专属遗物。"
+  }
+
+}
+
+
+
+
+

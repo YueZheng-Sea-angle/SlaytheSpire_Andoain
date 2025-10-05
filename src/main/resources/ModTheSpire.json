@@ -1,0 +1,10 @@
+{
+  "modid": "AndoainTest",
+  "name": "【明日方舟】安多恩",
+  "author_list": ["Moseangle"],
+  "description": "明日方舟安多恩MOD，还在开发",
+  "version": "0.0.1",
+  "sts_version": "5-24-2025",
+  "mts_version": "3.23.2",
+  "dependencies": ["basemod","stslib"]
+}
