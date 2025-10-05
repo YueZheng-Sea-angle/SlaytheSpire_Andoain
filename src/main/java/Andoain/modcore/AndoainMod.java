@@ -136,9 +136,9 @@ import java.util.ArrayList;
 
     public void receiveEditRelics() {
         BaseMod.addRelic(new MassesTravels(), RelicType.SHARED); // RelicType表示是所有角色都能拿到的遗物，还是一个角色的独有遗物
-        BaseMod.addRelic(new EpiphanyPendant(), RelicType.SHARED);
-        BaseMod.addRelic(new AuraRelic(), RelicType.SHARED);
-        BaseMod.addRelic(new ChurchMealVoucher(),RelicType.SHARED);
+        BaseMod.addRelicToCustomPool(new EpiphanyPendant(), CardColorEnum.Andoain_Blue);
+        BaseMod.addRelicToCustomPool(new AuraRelic(), CardColorEnum.Andoain_Blue);
+        BaseMod.addRelicToCustomPool(new ChurchMealVoucher(), CardColorEnum.Andoain_Blue);
         BaseMod.addRelicToCustomPool(new BrokenRevolverCylinder(),CardColorEnum.Andoain_Blue);
         BaseMod.addRelicToCustomPool(new CathedralPuzzle(),CardColorEnum.Andoain_Blue);
         // RelicType表示是所有角色都能拿到的遗物，还是一个角色的独有遗物
